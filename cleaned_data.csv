@@ -1,0 +1,679 @@
+transaction_id,date,category,region,channel,customer_segment,quantity,unit_price,revenue,cost,profit,payment_method,customer_satisfaction,profit_margin,quarter,month,day_of_week,year
+1000,2023-03-13,Toys,North,Mobile App,Budget,5,15.28,76.42,45.77,30.64,Digital Wallet,3,40.09,Q1,Mar,Mon,2023
+1001,2023-04-30,Books,Central,Mobile App,Premium,1,13.83,13.83,7.86,5.96,Digital Wallet,3,43.09,Q2,Apr,Sun,2023
+1002,2023-08-18,Toys,Central,Store,Premium,9,28.75,258.72,164.01,94.72,Debit Card,5,36.61,Q3,Aug,Fri,2023
+1003,2023-06-22,Sports,North,Online,Regular,3,50.42,151.25,89.7,61.55,Credit Card,4,40.69,Q2,Jun,Thu,2023
+1005,2023-12-27,Toys,North,Online,Budget,6,27.96,167.78,111.65,56.13,Debit Card,4,33.45,Q4,Dec,Wed,2023
+1006,2023-08-21,Electronics,East,Online,Regular,2,406.6,813.19,509.08,304.11,PayPal,3,37.4,Q3,Aug,Mon,2023
+1007,2023-03-29,Toys,Central,Mobile App,Premium,2,19.17,38.35,25.76,12.59,Debit Card,4,32.83,Q1,Mar,Wed,2023
+1008,2023-06-16,Sports,North,Online,Premium,9,46.2,415.77,246.94,168.84,PayPal,4,40.61,Q2,Jun,Fri,2023
+1009,2023-06-11,Home & Garden,South,Mobile App,Regular,10,45.3,452.95,328.51,124.44,Cash,5,27.47,Q2,Jun,Sun,2023
+1010,2023-10-15,Sports,Central,Store,Budget,3,38.57,115.72,69.35,46.36,Digital Wallet,4,40.06,Q4,Oct,Sun,2023
+1011,2023-03-12,Books,Central,Store,Premium,4,13.49,53.96,40.44,13.52,Credit Card,3,25.06,Q1,Mar,Sun,2023
+1012,2023-07-17,Clothing,West,Mobile App,Regular,7,50.74,355.15,237.69,117.45,Digital Wallet,4,33.07,Q3,Jul,Mon,2023
+1014,2023-05-15,Home & Garden,Central,Online,Budget,8,74.78,598.25,329.43,268.82,Credit Card,5,44.93,Q2,May,Mon,2023
+1015,2023-03-20,Home & Garden,East,Online,Budget,9,107.33,966.0,648.95,317.05,Digital Wallet,3,32.82,Q1,Mar,Mon,2023
+1016,2023-07-05,Books,East,Online,Premium,1,12.36,12.36,7.08,5.29,Debit Card,5,42.8,Q3,Jul,Wed,2023
+1017,2023-09-30,Electronics,South,Online,Budget,8,175.7,1405.57,1002.46,403.11,Cash,5,28.68,Q3,Sep,Sat,2023
+1018,2023-04-19,Clothing,Central,Mobile App,Budget,10,34.43,344.28,218.49,125.79,Debit Card,5,36.54,Q2,Apr,Wed,2023
+1019,2023-09-22,Home & Garden,West,Online,Premium,6,71.92,431.52,275.14,156.37,Debit Card,3,36.24,Q3,Sep,Fri,2023
+1020,2023-04-23,Home & Garden,North,Online,Budget,9,41.68,375.14,223.59,151.55,Credit Card,3,40.4,Q2,Apr,Sun,2023
+1021,2023-05-02,Electronics,East,Mobile App,Regular,6,421.63,2529.76,1427.22,1102.54,Debit Card,5,43.58,Q2,May,Tue,2023
+1022,2023-05-05,Clothing,West,Store,Premium,10,55.05,550.51,366.22,184.29,Credit Card,3,33.48,Q2,May,Fri,2023
+1023,2023-01-28,Toys,North,Online,Regular,7,23.28,162.93,103.01,59.92,PayPal,3,36.78,Q1,Jan,Sat,2023
+1024,2023-08-05,Clothing,South,Store,Regular,9,31.12,280.09,179.18,100.91,Debit Card,3,36.03,Q3,Aug,Sat,2023
+1025,2023-11-30,Sports,Central,Online,Premium,9,78.48,706.33,402.31,304.02,Debit Card,3,43.04,Q4,Nov,Thu,2023
+1026,2023-01-31,Sports,South,Store,Premium,4,59.14,236.55,171.01,65.54,Cash,4,27.71,Q1,Jan,Tue,2023
+1029,2023-04-06,Clothing,North,Mobile App,Premium,9,25.06,225.54,127.66,97.88,Debit Card,4,43.4,Q2,Apr,Thu,2023
+1031,2023-04-15,Books,East,Online,Regular,6,15.98,95.87,70.65,25.22,Cash,3,26.31,Q2,Apr,Sat,2023
+1034,2023-12-01,Sports,Central,Online,Budget,5,80.02,400.12,269.02,131.11,Digital Wallet,4,32.77,Q4,Dec,Fri,2023
+1036,2023-05-16,Clothing,Central,Store,Regular,4,54.79,219.17,150.68,68.49,Credit Card,3,31.25,Q2,May,Tue,2023
+1037,2023-06-20,Toys,South,Mobile App,Regular,5,23.09,115.45,64.51,50.93,Debit Card,5,44.11,Q2,Jun,Tue,2023
+1038,2023-02-27,Sports,North,Mobile App,Premium,7,63.1,441.71,292.49,149.22,Digital Wallet,3,33.78,Q1,Feb,Mon,2023
+1039,2023-01-22,Home & Garden,East,Store,Premium,3,86.6,259.8,165.22,94.58,PayPal,3,36.4,Q1,Jan,Sun,2023
+1040,2023-10-14,Toys,West,Mobile App,Budget,2,18.74,37.48,23.26,14.21,Debit Card,3,37.91,Q4,Oct,Sat,2023
+1041,2023-01-13,Clothing,South,Mobile App,Regular,3,66.43,199.29,144.74,54.55,Cash,5,27.37,Q1,Jan,Fri,2023
+1042,2023-12-26,Toys,North,Store,Premium,5,32.77,163.84,95.33,68.51,Cash,3,41.82,Q4,Dec,Tue,2023
+1044,2023-05-23,Home & Garden,East,Mobile App,Budget,2,62.29,124.58,92.61,31.97,Cash,5,25.66,Q2,May,Tue,2023
+1046,2023-09-19,Books,North,Store,Budget,6,14.02,84.11,53.6,30.51,Debit Card,4,36.27,Q3,Sep,Tue,2023
+1047,2023-10-03,Electronics,South,Store,Regular,1,362.64,362.64,237.16,125.48,Credit Card,5,34.6,Q4,Oct,Tue,2023
+1048,2023-06-03,Home & Garden,Central,Store,Budget,2,89.85,179.7,124.71,55.0,Cash,4,30.61,Q2,Jun,Sat,2023
+1049,2023-08-04,Sports,West,Mobile App,Budget,9,71.83,646.49,372.03,274.46,Debit Card,5,42.45,Q3,Aug,Fri,2023
+1050,2023-06-05,Books,East,Online,Regular,9,12.01,108.13,77.5,30.63,Digital Wallet,5,28.33,Q2,Jun,Mon,2023
+1051,2023-04-20,Toys,Central,Store,Budget,8,20.56,164.45,104.99,59.46,Debit Card,5,36.16,Q2,Apr,Thu,2023
+1052,2023-05-01,Electronics,East,Online,Premium,10,235.14,2351.36,1450.88,900.48,Debit Card,3,38.3,Q2,May,Mon,2023
+1053,2023-02-07,Electronics,West,Store,Budget,8,223.45,1787.62,1201.74,585.88,Digital Wallet,3,32.77,Q1,Feb,Tue,2023
+1054,2023-03-17,Toys,North,Online,Regular,8,29.91,239.27,150.72,88.55,Debit Card,3,37.01,Q1,Mar,Fri,2023
+1055,2023-03-04,Toys,West,Online,Regular,1,25.45,25.45,16.83,8.61,Digital Wallet,5,33.83,Q1,Mar,Sat,2023
+1056,2023-09-16,Books,West,Mobile App,Regular,8,12.26,98.08,65.96,32.12,Debit Card,5,32.75,Q3,Sep,Sat,2023
+1057,2023-05-22,Sports,Central,Store,Budget,4,57.0,228.02,163.71,64.31,Debit Card,4,28.2,Q2,May,Mon,2023
+1058,2023-06-21,Sports,East,Mobile App,Premium,5,34.65,173.25,103.41,69.84,Debit Card,3,40.31,Q2,Jun,Wed,2023
+1060,2023-10-27,Sports,North,Mobile App,Regular,7,33.74,236.15,148.28,87.87,Cash,3,37.21,Q4,Oct,Fri,2023
+1061,2023-08-03,Home & Garden,Central,Mobile App,Budget,7,63.89,447.22,322.31,124.91,Digital Wallet,5,27.93,Q3,Aug,Thu,2023
+1062,2023-01-15,Clothing,West,Store,Budget,5,44.47,222.35,141.68,80.68,Cash,5,36.29,Q1,Jan,Sun,2023
+1063,2023-10-01,Clothing,North,Store,Budget,3,60.32,180.97,135.03,45.94,Digital Wallet,5,25.39,Q4,Oct,Sun,2023
+1064,2023-08-25,Electronics,South,Online,Regular,7,175.18,1226.29,707.74,518.55,Cash,4,42.29,Q3,Aug,Fri,2023
+1065,2023-07-14,Clothing,East,Store,Regular,6,42.96,257.77,181.02,76.75,Credit Card,4,29.77,Q3,Jul,Fri,2023
+1066,2023-06-29,Electronics,South,Mobile App,Premium,1,374.71,374.71,281.02,93.68,Credit Card,3,25.0,Q2,Jun,Thu,2023
+1067,2023-05-03,Clothing,South,Store,Budget,1,31.47,31.47,21.22,10.25,Credit Card,5,32.57,Q2,May,Wed,2023
+1068,2023-03-27,Clothing,Central,Mobile App,Budget,5,43.43,217.13,152.73,64.41,Credit Card,3,29.66,Q1,Mar,Mon,2023
+1069,2023-10-22,Home & Garden,West,Store,Budget,1,48.65,48.65,35.79,12.85,Debit Card,3,26.41,Q4,Oct,Sun,2023
+1070,2023-06-04,Books,Central,Online,Budget,4,17.86,71.44,40.75,30.69,Credit Card,4,42.96,Q2,Jun,Sun,2023
+1071,2023-11-28,Books,East,Online,Regular,6,13.93,83.55,47.11,36.45,Cash,3,43.63,Q4,Nov,Tue,2023
+1072,2023-08-11,Sports,South,Mobile App,Budget,8,87.65,701.18,484.84,216.34,PayPal,5,30.85,Q3,Aug,Fri,2023
+1074,2023-12-09,Sports,West,Store,Premium,8,44.63,357.05,237.07,119.98,Cash,4,33.6,Q4,Dec,Sat,2023
+1075,2023-06-24,Clothing,East,Mobile App,Budget,6,44.44,266.64,189.2,77.44,PayPal,5,29.04,Q2,Jun,Sat,2023
+1076,2023-07-28,Electronics,West,Mobile App,Premium,4,304.99,1219.95,691.86,528.09,Cash,5,43.29,Q3,Jul,Fri,2023
+1077,2023-04-24,Toys,West,Mobile App,Premium,1,24.77,24.77,14.08,10.69,PayPal,5,43.16,Q2,Apr,Mon,2023
+1081,2023-10-01,Clothing,South,Store,Premium,5,38.74,193.7,107.08,86.62,Credit Card,5,44.72,Q4,Oct,Sun,2023
+1082,2023-09-09,Home & Garden,North,Online,Budget,3,95.79,287.38,194.72,92.66,PayPal,4,32.24,Q3,Sep,Sat,2023
+1083,2023-05-10,Sports,West,Online,Premium,3,56.43,169.28,125.8,43.49,Cash,4,25.69,Q2,May,Wed,2023
+1084,2023-10-16,Electronics,East,Online,Premium,1,323.11,323.11,187.51,135.59,Credit Card,5,41.96,Q4,Oct,Mon,2023
+1085,2023-09-25,Sports,West,Store,Regular,10,66.38,663.79,395.05,268.74,PayPal,5,40.49,Q3,Sep,Mon,2023
+1086,2023-02-20,Sports,South,Mobile App,Premium,10,48.32,483.23,271.6,211.63,PayPal,5,43.79,Q1,Feb,Mon,2023
+1087,2023-03-22,Electronics,North,Store,Regular,3,197.12,591.35,390.53,200.82,Digital Wallet,4,33.96,Q1,Mar,Wed,2023
+1088,2023-12-26,Home & Garden,West,Online,Budget,5,42.61,213.06,147.3,65.75,Debit Card,4,30.86,Q4,Dec,Tue,2023
+1089,2023-10-06,Toys,South,Mobile App,Premium,4,27.24,108.98,69.2,39.77,PayPal,3,36.49,Q4,Oct,Fri,2023
+1090,2023-10-19,Electronics,East,Store,Premium,5,167.89,839.46,561.6,277.85,Cash,5,33.1,Q4,Oct,Thu,2023
+1091,2023-09-10,Home & Garden,West,Online,Budget,5,95.98,479.89,311.98,167.92,Credit Card,4,34.99,Q3,Sep,Sun,2023
+1092,2023-04-28,Toys,Central,Mobile App,Premium,5,20.56,102.79,57.07,45.72,PayPal,5,44.48,Q2,Apr,Fri,2023
+1093,2023-11-30,Electronics,West,Store,Premium,3,378.93,1136.8,732.21,404.59,Digital Wallet,4,35.59,Q4,Nov,Thu,2023
+1094,2023-07-29,Toys,East,Store,Budget,2,328.6,657.0999999999999,42.32,23.39,Credit Card,3,3.56,Q3,Jul,Sat,2023
+1096,2023-01-01,Home & Garden,Central,Store,Regular,7,65.86,461.03,333.32,127.71,Credit Card,3,27.7,Q1,Jan,Sun,2023
+1097,2023-01-27,Books,South,Store,Budget,8,12.93,103.41,69.81,33.6,Debit Card,4,32.49,Q1,Jan,Fri,2023
+1098,2023-11-19,Sports,Central,Online,Budget,8,82.85,662.81,380.64,282.17,Debit Card,4,42.57,Q4,Nov,Sun,2023
+1099,2023-02-28,Books,West,Online,Budget,7,7.71,53.94,30.67,23.27,Debit Card,4,43.14,Q1,Feb,Tue,2023
+1100,2023-09-05,Toys,West,Online,Regular,5,19.8,98.98,62.67,36.32,Digital Wallet,3,36.69,Q3,Sep,Tue,2023
+1101,2023-03-11,Sports,North,Store,Regular,10,41.44,414.37,270.02,144.35,PayPal,5,34.84,Q1,Mar,Sat,2023
+1102,2023-10-28,Home & Garden,Central,Mobile App,Regular,5,105.64,528.22,367.22,161.0,Debit Card,4,30.48,Q4,Oct,Sat,2023
+1103,2023-10-06,Books,West,Store,Regular,6,14.77,88.59,58.5,30.09,Debit Card,5,33.97,Q4,Oct,Fri,2023
+1104,2023-07-30,Clothing,North,Store,Budget,4,48.23,192.92,139.14,53.79,Cash,5,27.88,Q3,Jul,Sun,2023
+1105,2023-01-19,Sports,South,Mobile App,Budget,3,53.16,159.49,103.52,55.97,PayPal,3,35.09,Q1,Jan,Thu,2023
+1106,2023-03-15,Sports,West,Mobile App,Premium,8,35.98,287.86,159.21,128.65,Credit Card,4,44.69,Q1,Mar,Wed,2023
+1107,2023-06-18,Home & Garden,Central,Store,Regular,7,67.08,469.59,319.31,150.29,Cash,5,32.0,Q2,Jun,Sun,2023
+1108,2023-05-28,Electronics,South,Mobile App,Premium,4,335.24,1340.95,906.79,434.16,Cash,3,32.38,Q2,May,Sun,2023
+1109,2023-12-22,Toys,East,Online,Premium,2,30.1,60.19,38.45,21.75,PayPal,3,36.14,Q4,Dec,Fri,2023
+1110,2023-09-29,Home & Garden,West,Mobile App,Budget,7,68.68,480.74,278.4,202.34,Debit Card,3,42.09,Q3,Sep,Fri,2023
+1111,2023-05-04,Clothing,West,Mobile App,Premium,7,26.05,182.38,122.91,59.46,Debit Card,4,32.6,Q2,May,Thu,2023
+1112,2023-08-27,Toys,East,Mobile App,Budget,5,18.85,94.25,64.41,29.84,Debit Card,3,31.66,Q3,Aug,Sun,2023
+1113,2023-08-06,Sports,East,Store,Regular,10,86.71,867.14,528.81,338.33,Debit Card,4,39.02,Q3,Aug,Sun,2023
+1114,2023-10-22,Sports,East,Mobile App,Regular,7,36.4,254.79,169.28,85.51,Credit Card,5,33.56,Q4,Oct,Sun,2023
+1115,2023-01-26,Sports,Central,Mobile App,Regular,10,46.47,464.69,335.98,128.71,PayPal,3,27.7,Q1,Jan,Thu,2023
+1116,2023-11-14,Books,East,Mobile App,Budget,4,19.53,78.12,52.91,25.21,Debit Card,5,32.27,Q4,Nov,Tue,2023
+1117,2023-08-14,Electronics,North,Mobile App,Regular,1,421.02,421.02,257.58,163.45,Debit Card,3,38.82,Q3,Aug,Mon,2023
+1118,2023-03-09,Home & Garden,Central,Store,Budget,7,66.14,462.96,270.89,192.07,Digital Wallet,4,41.49,Q1,Mar,Thu,2023
+1120,2023-10-13,Clothing,East,Online,Regular,7,61.21,428.44,318.53,109.92,Credit Card,4,25.66,Q4,Oct,Fri,2023
+1121,2023-12-11,Books,East,Mobile App,Regular,6,9.35,56.12,38.42,17.7,PayPal,3,31.54,Q4,Dec,Mon,2023
+1122,2023-10-15,Toys,East,Mobile App,Premium,1,18.35,18.35,12.36,5.98,Credit Card,5,32.59,Q4,Oct,Sun,2023
+1123,2023-03-01,Sports,South,Online,Premium,5,84.56,422.82,287.45,135.37,PayPal,4,32.02,Q1,Mar,Wed,2023
+1124,2023-08-21,Electronics,East,Mobile App,Budget,9,179.16,1612.42,930.58,681.84,Digital Wallet,4,42.29,Q3,Aug,Mon,2023
+1125,2023-12-02,Books,North,Store,Budget,3,18.63,55.9,40.65,15.26,Cash,4,27.3,Q4,Dec,Sat,2023
+1127,2023-03-04,Toys,West,Online,Budget,7,21.47,150.27,90.94,59.33,Debit Card,5,39.48,Q1,Mar,Sat,2023
+1128,2023-06-20,Toys,South,Online,Budget,1,27.43,27.43,15.36,12.07,Debit Card,3,44.0,Q2,Jun,Tue,2023
+1129,2023-04-30,Books,East,Online,Budget,4,10.61,42.43,30.24,12.19,Credit Card,4,28.73,Q2,Apr,Sun,2023
+1130,2023-03-31,Clothing,North,Mobile App,Premium,9,66.94,602.45,361.55,240.9,Debit Card,3,39.99,Q1,Mar,Fri,2023
+1131,2023-01-09,Home & Garden,South,Store,Premium,4,103.2,412.8,275.65,137.14,Debit Card,5,33.22,Q1,Jan,Mon,2023
+1132,2023-07-05,Sports,Central,Mobile App,Premium,2,61.57,123.13,79.45,43.68,Cash,5,35.47,Q3,Jul,Wed,2023
+1134,2023-09-09,Sports,West,Online,Premium,7,80.84,565.87,388.87,176.99,PayPal,5,31.28,Q3,Sep,Sat,2023
+1135,2023-10-27,Clothing,Central,Mobile App,Regular,5,25.46,127.28,85.9,41.38,Cash,5,32.51,Q4,Oct,Fri,2023
+1136,2023-02-20,Books,North,Mobile App,Budget,9,11.92,107.31,72.01,35.3,Digital Wallet,5,32.9,Q1,Feb,Mon,2023
+1137,2023-08-21,Clothing,West,Store,Budget,4,41.85,167.41,105.93,61.48,Credit Card,4,36.72,Q3,Aug,Mon,2023
+1138,2023-03-20,Sports,West,Online,Premium,5,48.75,243.76,152.31,91.44,Credit Card,3,37.51,Q1,Mar,Mon,2023
+1139,2023-10-12,Sports,North,Mobile App,Budget,6,357.9,2147.6,152.99,61.78,Digital Wallet,4,2.88,Q4,Oct,Thu,2023
+1140,2023-08-05,Toys,North,Store,Budget,6,15.56,93.33,67.64,25.69,PayPal,4,27.53,Q3,Aug,Sat,2023
+1141,2023-09-04,Electronics,South,Online,Regular,4,323.38,1293.5,751.45,542.05,Digital Wallet,4,41.91,Q3,Sep,Mon,2023
+1144,2023-11-21,Clothing,North,Online,Budget,7,47.98,335.89,189.41,146.48,Digital Wallet,3,43.61,Q4,Nov,Tue,2023
+1146,2023-02-11,Clothing,East,Store,Budget,10,29.58,295.83,165.65,130.18,Cash,4,44.01,Q1,Feb,Sat,2023
+1147,2023-09-20,Books,North,Store,Regular,5,14.13,70.65,41.91,28.75,Credit Card,4,40.69,Q3,Sep,Wed,2023
+1148,2023-06-07,Toys,North,Online,Regular,8,29.46,235.7,154.47,81.22,Digital Wallet,3,34.46,Q2,Jun,Wed,2023
+1149,2023-05-11,Electronics,East,Store,Premium,4,211.33,845.31,594.65,250.66,Credit Card,4,29.65,Q2,May,Thu,2023
+1150,2023-12-27,Toys,South,Mobile App,Budget,3,23.27,69.8,43.7,26.1,PayPal,3,37.39,Q4,Dec,Wed,2023
+1152,2023-07-27,Sports,North,Store,Premium,7,72.57,507.99,308.81,199.18,Digital Wallet,4,39.21,Q3,Jul,Thu,2023
+1153,2023-02-24,Toys,South,Store,Budget,2,35.49,70.99,45.24,25.74,Cash,5,36.26,Q1,Feb,Fri,2023
+1155,2023-06-28,Electronics,East,Mobile App,Budget,4,309.18,1236.73,904.27,332.45,Debit Card,3,26.88,Q2,Jun,Wed,2023
+1156,2023-03-20,Electronics,North,Online,Budget,4,193.93,775.73,453.57,322.16,Cash,4,41.53,Q1,Mar,Mon,2023
+1157,2023-10-17,Books,Central,Store,Budget,8,18.9,151.19,103.75,47.44,PayPal,3,31.38,Q4,Oct,Tue,2023
+1158,2023-05-21,Sports,Central,Online,Regular,8,34.1,272.78,184.47,88.3,Digital Wallet,3,32.37,Q2,May,Sun,2023
+1159,2023-05-27,Home & Garden,North,Mobile App,Premium,1,76.94,76.94,43.19,33.75,Digital Wallet,5,43.87,Q2,May,Sat,2023
+1160,2023-01-22,Books,West,Mobile App,Budget,10,13.27,132.67,87.68,44.99,Debit Card,4,33.91,Q1,Jan,Sun,2023
+1161,2023-08-19,Books,North,Store,Budget,3,14.63,43.9,32.56,11.35,Credit Card,5,25.85,Q3,Aug,Sat,2023
+1162,2023-08-13,Toys,Central,Mobile App,Budget,4,16.81,67.26,46.51,20.75,Debit Card,4,30.85,Q3,Aug,Sun,2023
+1164,2023-12-03,Home & Garden,Central,Online,Regular,7,47.56,332.92,202.03,130.9,Credit Card,5,39.32,Q4,Dec,Sun,2023
+1165,2023-12-02,Toys,West,Online,Budget,6,16.04,96.21,58.89,37.33,Credit Card,4,38.8,Q4,Dec,Sat,2023
+1166,2023-12-10,Books,Central,Online,Budget,6,13.15,78.9,56.23,22.67,Cash,5,28.73,Q4,Dec,Sun,2023
+1167,2023-04-20,Home & Garden,East,Store,Premium,5,41.46,207.29,121.48,85.81,Debit Card,3,41.4,Q2,Apr,Thu,2023
+1168,2023-10-04,Clothing,Central,Online,Budget,2,25.97,51.94,33.84,18.1,PayPal,5,34.85,Q4,Oct,Wed,2023
+1169,2023-12-21,Clothing,Central,Online,Budget,3,49.38,148.13,86.28,61.85,Cash,3,41.75,Q4,Dec,Thu,2023
+1170,2023-11-09,Sports,East,Mobile App,Regular,4,51.86,207.43,154.31,53.12,Debit Card,5,25.61,Q4,Nov,Thu,2023
+1172,2023-03-24,Home & Garden,South,Mobile App,Premium,9,102.25,920.25,603.22,317.03,PayPal,3,34.45,Q1,Mar,Fri,2023
+1173,2023-02-22,Toys,Central,Online,Regular,6,24.51,147.09,97.21,49.88,Credit Card,3,33.91,Q1,Feb,Wed,2023
+1174,2023-08-12,Home & Garden,North,Online,Regular,9,75.95,683.51,396.07,287.44,PayPal,3,42.05,Q3,Aug,Sat,2023
+1175,2023-07-17,Sports,North,Store,Premium,9,33.2,298.76,186.66,112.1,Credit Card,4,37.52,Q3,Jul,Mon,2023
+1176,2023-03-12,Electronics,North,Store,Regular,6,401.75,2410.52,1707.31,703.21,Debit Card,5,29.17,Q1,Mar,Sun,2023
+1177,2023-01-10,Sports,East,Online,Premium,1,56.92,56.92,41.62,15.3,Digital Wallet,5,26.88,Q1,Jan,Tue,2023
+1178,2023-05-02,Books,East,Online,Premium,2,15.42,30.83,21.74,9.09,Debit Card,4,29.48,Q2,May,Tue,2023
+1179,2023-09-13,Toys,Central,Mobile App,Premium,8,32.35,258.78,145.58,113.2,Digital Wallet,5,43.74,Q3,Sep,Wed,2023
+1180,2023-11-11,Clothing,East,Online,Budget,5,54.83,274.17,174.33,99.84,Cash,3,36.42,Q4,Nov,Sat,2023
+1181,2023-02-04,Toys,Central,Mobile App,Budget,9,29.21,262.85,195.8,67.04,Digital Wallet,5,25.51,Q1,Feb,Sat,2023
+1182,2023-07-18,Electronics,East,Store,Budget,8,267.14,2137.09,1194.01,943.08,Credit Card,4,44.13,Q3,Jul,Tue,2023
+1183,2023-06-20,Electronics,South,Online,Regular,2,253.44,506.88,357.0,149.88,Digital Wallet,4,29.57,Q2,Jun,Tue,2023
+1184,2023-09-03,Toys,South,Online,Premium,8,16.88,135.02,100.75,34.27,Cash,3,25.38,Q3,Sep,Sun,2023
+1185,2023-06-11,Home & Garden,East,Mobile App,Regular,4,56.13,224.51,163.25,61.26,Digital Wallet,4,27.29,Q2,Jun,Sun,2023
+1186,2023-01-25,Home & Garden,East,Store,Premium,4,42.93,171.72,104.27,67.45,PayPal,4,39.28,Q1,Jan,Wed,2023
+1187,2023-04-06,Sports,West,Mobile App,Regular,7,74.6,522.19,322.61,199.58,PayPal,5,38.22,Q2,Apr,Thu,2023
+1189,2023-11-05,Electronics,West,Online,Budget,5,248.38,1241.88,759.16,482.72,Cash,4,38.87,Q4,Nov,Sun,2023
+1190,2023-08-11,Sports,East,Mobile App,Premium,6,32.54,195.25,131.4,63.85,Credit Card,5,32.7,Q3,Aug,Fri,2023
+1191,2023-12-14,Toys,South,Online,Premium,9,22.66,203.9,144.81,59.09,Digital Wallet,5,28.98,Q4,Dec,Thu,2023
+1192,2023-11-27,Sports,East,Store,Regular,2,32.09,64.18,38.33,25.85,Digital Wallet,3,40.28,Q4,Nov,Mon,2023
+1193,2023-07-10,Books,West,Online,Budget,8,9.8,78.41,58.01,20.41,Debit Card,5,26.03,Q3,Jul,Mon,2023
+1194,2023-02-28,Home & Garden,North,Mobile App,Premium,5,71.84,359.21,215.5,143.71,Cash,5,40.01,Q1,Feb,Tue,2023
+1195,2023-05-14,Sports,West,Online,Budget,2,84.81,169.63,102.17,67.45,PayPal,5,39.76,Q2,May,Sun,2023
+1196,2023-08-20,Sports,South,Mobile App,Regular,3,42.01,126.03,90.81,35.22,Credit Card,5,27.95,Q3,Aug,Sun,2023
+1197,2023-05-29,Home & Garden,East,Online,Budget,2,93.43,186.85,123.32,63.53,Debit Card,4,34.0,Q2,May,Mon,2023
+1198,2023-05-02,Books,West,Online,Regular,4,10.86,43.45,30.78,12.67,Digital Wallet,5,29.16,Q2,May,Tue,2023
+1199,2023-02-14,Home & Garden,North,Store,Regular,9,77.39,696.53,401.17,295.36,Cash,5,42.4,Q1,Feb,Tue,2023
+1200,2023-06-12,Sports,North,Store,Regular,10,76.15,761.5,430.06,331.44,Digital Wallet,4,43.52,Q2,Jun,Mon,2023
+1201,2023-04-04,Clothing,South,Store,Budget,9,62.01,558.07,378.35,179.72,Credit Card,3,32.2,Q2,Apr,Tue,2023
+1203,2023-11-17,Home & Garden,East,Mobile App,Budget,9,55.7,501.34,303.25,198.08,Credit Card,5,39.51,Q4,Nov,Fri,2023
+1204,2023-12-04,Toys,Central,Mobile App,Budget,10,16.72,167.16,97.09,70.07,PayPal,5,41.92,Q4,Dec,Mon,2023
+1205,2023-11-25,Electronics,Central,Store,Budget,1,397.57,397.57,225.12,172.45,Debit Card,5,43.38,Q4,Nov,Sat,2023
+1206,2023-11-18,Sports,Central,Store,Budget,1,67.09,67.09,43.58,23.51,PayPal,4,35.04,Q4,Nov,Sat,2023
+1207,2023-02-07,Clothing,North,Online,Regular,7,58.71,410.98,250.48,160.49,Cash,4,39.05,Q1,Feb,Tue,2023
+1208,2023-06-13,Sports,East,Store,Premium,10,42.24,422.41,244.47,177.95,PayPal,5,42.13,Q2,Jun,Tue,2023
+1210,2023-03-23,Home & Garden,East,Mobile App,Budget,10,115.63,1156.31,732.67,423.64,PayPal,3,36.64,Q1,Mar,Thu,2023
+1211,2023-06-07,Clothing,West,Online,Premium,9,44.92,404.3,260.11,144.19,Cash,5,35.66,Q2,Jun,Wed,2023
+1212,2023-01-25,Sports,North,Store,Regular,4,88.0,352.0,234.67,117.33,Digital Wallet,5,33.33,Q1,Jan,Wed,2023
+1213,2023-02-25,Toys,West,Online,Regular,9,24.26,218.38,120.47,97.91,PayPal,4,44.83,Q1,Feb,Sat,2023
+1214,2023-04-10,Home & Garden,East,Mobile App,Regular,1,43.62,43.62,28.97,14.65,Credit Card,4,33.59,Q2,Apr,Mon,2023
+1215,2023-11-16,Books,Central,Online,Premium,9,14.26,128.3,77.74,50.56,Credit Card,4,39.41,Q4,Nov,Thu,2023
+1216,2023-07-07,Home & Garden,South,Online,Budget,6,103.59,621.55,411.2,210.35,Digital Wallet,4,33.84,Q3,Jul,Fri,2023
+1217,2023-06-20,Books,West,Mobile App,Regular,1,8.1,8.1,4.68,3.42,Debit Card,5,42.22,Q2,Jun,Tue,2023
+1219,2023-10-16,Books,East,Store,Premium,9,19.92,179.32,116.19,63.13,PayPal,4,35.21,Q4,Oct,Mon,2023
+1220,2023-12-19,Toys,North,Mobile App,Regular,7,15.24,106.68,71.13,35.55,PayPal,5,33.32,Q4,Dec,Tue,2023
+1221,2023-03-29,Books,Central,Mobile App,Budget,1,16.16,16.16,10.78,5.39,Digital Wallet,4,33.35,Q1,Mar,Wed,2023
+1222,2023-12-25,Clothing,North,Online,Premium,4,59.47,237.9,132.35,105.55,Cash,4,44.37,Q4,Dec,Mon,2023
+1223,2023-11-10,Sports,West,Mobile App,Budget,4,39.09,156.34,98.82,57.52,Credit Card,5,36.79,Q4,Nov,Fri,2023
+1224,2023-12-06,Clothing,West,Mobile App,Regular,9,45.84,412.57,253.73,158.83,PayPal,3,38.5,Q4,Dec,Wed,2023
+1225,2023-12-13,Sports,East,Mobile App,Regular,6,84.73,508.36,335.14,173.22,Debit Card,3,34.07,Q4,Dec,Wed,2023
+1226,2023-06-02,Home & Garden,East,Mobile App,Premium,4,84.65,338.59,249.98,88.61,Cash,4,26.17,Q2,Jun,Fri,2023
+1227,2023-10-21,Sports,Central,Store,Regular,5,50.93,254.64,154.71,99.93,PayPal,3,39.24,Q4,Oct,Sat,2023
+1228,2023-08-15,Home & Garden,East,Mobile App,Regular,2,43.37,86.73,53.71,33.02,Debit Card,3,38.07,Q3,Aug,Tue,2023
+1229,2023-03-12,Books,North,Mobile App,Budget,9,11.57,104.1,71.75,32.35,Digital Wallet,3,31.08,Q1,Mar,Sun,2023
+1230,2023-04-30,Clothing,North,Online,Regular,9,24.78,223.06,132.75,90.31,PayPal,5,40.49,Q2,Apr,Sun,2023
+1231,2023-10-09,Sports,South,Store,Budget,3,36.03,108.1,59.57,48.53,Cash,4,44.89,Q4,Oct,Mon,2023
+1232,2023-11-27,Toys,North,Online,Budget,5,17.49,87.43,53.7,33.73,Digital Wallet,3,38.58,Q4,Nov,Mon,2023
+1233,2023-03-31,Books,West,Online,Premium,1,18.58,18.58,13.61,4.97,Cash,4,26.75,Q1,Mar,Fri,2023
+1234,2023-01-05,Clothing,East,Mobile App,Budget,5,64.65,323.24,234.46,88.78,Credit Card,4,27.47,Q1,Jan,Thu,2023
+1235,2023-03-10,Home & Garden,Central,Store,Regular,9,76.35,687.13,449.98,237.15,Debit Card,3,34.51,Q1,Mar,Fri,2023
+1238,2023-09-02,Sports,East,Online,Premium,3,70.16,210.47,157.08,53.39,PayPal,4,25.37,Q3,Sep,Sat,2023
+1239,2023-06-04,Clothing,Central,Mobile App,Budget,5,42.6,213.02,157.8,55.21,Credit Card,4,25.92,Q2,Jun,Sun,2023
+1240,2023-03-02,Toys,West,Store,Premium,4,21.49,85.96,48.34,37.61,Cash,5,43.75,Q1,Mar,Thu,2023
+1241,2023-11-24,Books,East,Store,Budget,5,21.35,106.73,73.44,33.29,Debit Card,3,31.19,Q4,Nov,Fri,2023
+1242,2023-11-07,Clothing,East,Store,Budget,8,44.02,352.15,246.34,105.8,Digital Wallet,4,30.04,Q4,Nov,Tue,2023
+1243,2023-12-15,Books,Central,Online,Budget,4,19.53,78.12,54.87,23.25,Cash,5,29.76,Q4,Dec,Fri,2023
+1245,2023-12-15,Clothing,South,Mobile App,Budget,9,37.27,335.39,214.1,121.29,Cash,3,36.16,Q4,Dec,Fri,2023
+1246,2023-09-20,Books,West,Store,Budget,1,14.18,14.18,9.09,5.1,Credit Card,5,35.97,Q3,Sep,Wed,2023
+1247,2023-07-22,Sports,East,Online,Budget,5,70.37,351.83,244.4,107.43,Debit Card,5,30.53,Q3,Jul,Sat,2023
+1248,2023-10-05,Electronics,North,Online,Regular,6,163.59,981.52,677.33,304.2,Credit Card,4,30.99,Q4,Oct,Thu,2023
+1249,2023-11-27,Sports,West,Store,Regular,3,40.8,122.4,86.07,36.33,Cash,4,29.68,Q4,Nov,Mon,2023
+1250,2023-06-28,Sports,North,Online,Budget,9,34.81,313.33,180.67,132.67,Cash,5,42.34,Q2,Jun,Wed,2023
+1251,2023-01-12,Clothing,East,Store,Budget,4,55.25,221.01,158.46,62.55,Digital Wallet,4,28.3,Q1,Jan,Thu,2023
+1252,2023-06-27,Books,South,Store,Premium,4,13.19,52.76,31.63,21.13,Credit Card,3,40.05,Q2,Jun,Tue,2023
+1253,2023-02-04,Toys,North,Mobile App,Premium,1,22.98,22.98,13.75,9.24,Cash,5,40.21,Q1,Feb,Sat,2023
+1254,2023-01-23,Toys,West,Store,Premium,1,30.08,30.08,18.02,12.06,Digital Wallet,3,40.09,Q1,Jan,Mon,2023
+1255,2023-10-22,Electronics,East,Mobile App,Budget,5,192.04,960.2,573.08,387.12,PayPal,3,40.32,Q4,Oct,Sun,2023
+1256,2023-06-03,Home & Garden,East,Online,Budget,9,110.1,990.91,588.8,402.1,Digital Wallet,5,40.58,Q2,Jun,Sat,2023
+1257,2023-01-25,Clothing,East,Mobile App,Budget,7,50.67,354.69,234.51,120.18,Cash,5,33.88,Q1,Jan,Wed,2023
+1258,2023-07-12,Home & Garden,South,Mobile App,Regular,7,95.7,669.93,388.46,281.48,Debit Card,3,42.02,Q3,Jul,Wed,2023
+1260,2023-11-28,Clothing,North,Store,Regular,5,39.98,199.89,118.07,81.82,Credit Card,5,40.93,Q4,Nov,Tue,2023
+1261,2023-12-11,Toys,Central,Mobile App,Premium,1,332.40000000000003,332.40000000000003,20.06,13.17,Credit Card,3,3.96,Q4,Dec,Mon,2023
+1262,2023-04-17,Books,East,Store,Premium,9,18.36,165.28,98.08,67.2,Debit Card,3,40.66,Q2,Apr,Mon,2023
+1263,2023-12-23,Toys,Central,Mobile App,Premium,8,15.43,123.46,90.48,32.98,Cash,3,26.71,Q4,Dec,Sat,2023
+1264,2023-10-01,Books,East,Store,Regular,5,12.32,61.62,38.58,23.04,PayPal,5,37.39,Q4,Oct,Sun,2023
+1265,2023-06-13,Sports,South,Store,Regular,8,57.96,463.68,325.66,138.03,Cash,3,29.77,Q2,Jun,Tue,2023
+1266,2023-10-11,Books,Central,Mobile App,Budget,3,20.46,61.38,33.96,27.42,Cash,4,44.67,Q4,Oct,Wed,2023
+1267,2023-05-06,Clothing,West,Mobile App,Budget,4,31.33,125.31,78.44,46.87,PayPal,4,37.4,Q2,May,Sat,2023
+1268,2023-06-30,Sports,South,Online,Budget,8,87.99,703.92,452.04,251.89,Digital Wallet,4,35.78,Q2,Jun,Fri,2023
+1269,2023-01-31,Clothing,Central,Online,Premium,9,63.76,573.84,429.27,144.57,Credit Card,3,25.19,Q1,Jan,Tue,2023
+1270,2023-03-19,Sports,North,Online,Budget,4,38.25,153.0,86.23,66.77,Cash,4,43.64,Q1,Mar,Sun,2023
+1274,2023-05-05,Sports,South,Store,Budget,7,34.74,243.19,156.08,87.11,Credit Card,5,35.82,Q2,May,Fri,2023
+1275,2023-07-13,Toys,Central,Store,Premium,2,31.49,62.98,39.74,23.24,Credit Card,5,36.9,Q3,Jul,Thu,2023
+1276,2023-06-19,Clothing,Central,Online,Budget,7,26.22,183.55,124.62,58.92,Credit Card,3,32.1,Q2,Jun,Mon,2023
+1277,2023-01-24,Clothing,North,Mobile App,Regular,10,63.06,630.57,406.78,223.79,Digital Wallet,5,35.49,Q1,Jan,Tue,2023
+1279,2023-07-19,Home & Garden,Central,Store,Regular,4,53.0,211.98,140.62,71.37,Debit Card,5,33.67,Q3,Jul,Wed,2023
+1281,2023-05-20,Books,West,Store,Premium,6,13.45,80.7,44.86,35.84,PayPal,5,44.41,Q2,May,Sat,2023
+1282,2023-02-13,Sports,Central,Store,Premium,10,55.91,559.11,381.39,177.72,Credit Card,3,31.79,Q1,Feb,Mon,2023
+1283,2023-06-12,Home & Garden,East,Online,Premium,3,52.34,157.01,109.58,47.43,Credit Card,4,30.21,Q2,Jun,Mon,2023
+1284,2023-02-14,Sports,South,Store,Regular,5,51.6,257.98,147.16,110.81,Digital Wallet,5,42.95,Q1,Feb,Tue,2023
+1287,2023-09-10,Sports,South,Online,Premium,5,40.17,200.85,122.56,78.29,Cash,4,38.98,Q3,Sep,Sun,2023
+1288,2023-05-07,Sports,West,Mobile App,Budget,2,47.99,95.97,59.72,36.26,Debit Card,4,37.78,Q2,May,Sun,2023
+1289,2023-06-20,Electronics,Central,Store,Regular,1,190.65,190.65,141.03,49.61,Cash,4,26.02,Q2,Jun,Tue,2023
+1290,2023-06-14,Sports,Central,Mobile App,Premium,10,78.93,789.29,455.6,333.69,Cash,4,42.28,Q2,Jun,Wed,2023
+1291,2023-12-22,Clothing,West,Mobile App,Premium,6,65.91,395.44,240.54,154.9,PayPal,4,39.17,Q4,Dec,Fri,2023
+1292,2023-10-16,Home & Garden,South,Mobile App,Budget,7,105.32,737.24,459.3,277.94,Debit Card,5,37.7,Q4,Oct,Mon,2023
+1293,2023-04-18,Books,West,Store,Budget,8,7.9,63.23,46.7,16.53,Credit Card,4,26.14,Q2,Apr,Tue,2023
+1294,2023-12-04,Toys,South,Mobile App,Regular,5,24.98,124.91,74.75,50.16,Cash,3,40.16,Q4,Dec,Mon,2023
+1295,2023-10-01,Sports,Central,Mobile App,Regular,8,89.44,715.54,476.87,238.67,Digital Wallet,3,33.36,Q4,Oct,Sun,2023
+1296,2023-02-13,Home & Garden,North,Online,Budget,9,96.13,865.18,578.6,286.58,PayPal,3,33.12,Q1,Feb,Mon,2023
+1297,2023-12-13,Toys,West,Store,Regular,10,27.82,278.17,207.72,70.45,Credit Card,3,25.33,Q4,Dec,Wed,2023
+1298,2023-10-13,Electronics,Central,Mobile App,Budget,9,227.62,2048.59,1432.73,615.87,Debit Card,4,30.06,Q4,Oct,Fri,2023
+1299,2023-03-19,Home & Garden,East,Online,Regular,10,71.29,712.91,490.54,222.36,Credit Card,4,31.19,Q1,Mar,Sun,2023
+1300,2023-03-14,Sports,East,Store,Regular,2,85.23,170.47,97.71,72.75,Cash,3,42.68,Q1,Mar,Tue,2023
+1301,2023-12-23,Books,West,Store,Premium,8,14.74,117.95,67.18,50.78,PayPal,3,43.05,Q4,Dec,Sat,2023
+1302,2023-12-13,Toys,South,Mobile App,Premium,6,15.38,92.26,62.7,29.56,Digital Wallet,3,32.04,Q4,Dec,Wed,2023
+1303,2023-08-25,Books,South,Store,Budget,9,9.9,89.12,56.61,32.5,Debit Card,3,36.47,Q3,Aug,Fri,2023
+1304,2023-11-11,Toys,South,Store,Budget,7,28.93,202.53,112.57,89.96,Cash,4,44.42,Q4,Nov,Sat,2023
+1305,2023-12-27,Electronics,North,Mobile App,Premium,4,361.42,1445.68,875.61,570.08,Digital Wallet,3,39.43,Q4,Dec,Wed,2023
+1306,2023-12-10,Home & Garden,West,Mobile App,Budget,8,66.08,528.63,302.79,225.84,PayPal,5,42.72,Q4,Dec,Sun,2023
+1308,2023-05-03,Books,East,Online,Premium,3,8.77,26.31,16.12,10.19,PayPal,5,38.73,Q2,May,Wed,2023
+1309,2023-10-22,Clothing,West,Store,Premium,7,45.49,318.41,213.11,105.3,Cash,5,33.07,Q4,Oct,Sun,2023
+1310,2023-09-08,Books,East,Online,Premium,3,17.9,53.7,35.5,18.21,PayPal,4,33.91,Q3,Sep,Fri,2023
+1311,2023-09-06,Books,South,Online,Regular,6,8.3,49.83,36.89,12.94,Digital Wallet,5,25.97,Q3,Sep,Wed,2023
+1312,2023-08-16,Toys,West,Online,Premium,8,24.87,198.99,125.99,73.01,Digital Wallet,3,36.69,Q3,Aug,Wed,2023
+1313,2023-05-28,Clothing,South,Store,Budget,5,35.64,178.22,106.04,72.18,Cash,5,40.5,Q2,May,Sun,2023
+1314,2023-10-06,Books,East,Mobile App,Premium,2,9.2,18.4,11.1,7.29,Cash,5,39.62,Q4,Oct,Fri,2023
+1315,2023-12-01,Clothing,South,Store,Premium,2,67.04,134.08,93.48,40.6,Cash,4,30.28,Q4,Dec,Fri,2023
+1317,2023-03-26,Home & Garden,Central,Online,Premium,10,108.88,1088.84,736.66,352.18,Debit Card,3,32.34,Q1,Mar,Sun,2023
+1318,2023-03-28,Books,East,Mobile App,Regular,5,12.76,63.81,42.71,21.1,PayPal,5,33.07,Q1,Mar,Tue,2023
+1319,2023-12-14,Home & Garden,North,Online,Regular,9,116.19,1045.73,781.26,264.47,Credit Card,4,25.29,Q4,Dec,Thu,2023
+1320,2023-12-31,Toys,East,Online,Budget,3,15.67,47.02,28.21,18.81,Cash,4,40.0,Q4,Dec,Sun,2023
+1321,2023-07-12,Clothing,West,Online,Budget,5,48.48,242.42,163.77,78.65,Credit Card,4,32.44,Q3,Jul,Wed,2023
+1322,2023-09-07,Books,East,Mobile App,Premium,6,18.75,112.48,72.09,40.39,Credit Card,5,35.91,Q3,Sep,Thu,2023
+1323,2023-10-01,Sports,West,Online,Regular,6,68.09,408.54,294.16,114.38,Debit Card,4,28.0,Q4,Oct,Sun,2023
+1324,2023-10-23,Home & Garden,South,Mobile App,Regular,5,65.83,329.15,203.26,125.88,PayPal,5,38.24,Q4,Oct,Mon,2023
+1326,2023-05-21,Toys,North,Mobile App,Regular,5,35.24,176.18,102.5,73.68,PayPal,3,41.82,Q2,May,Sun,2023
+1327,2023-11-17,Home & Garden,East,Mobile App,Budget,3,93.16,279.48,156.61,122.87,Debit Card,4,43.96,Q4,Nov,Fri,2023
+1328,2023-09-02,Toys,North,Online,Budget,2,14.78,29.56,16.26,13.3,Debit Card,5,44.99,Q3,Sep,Sat,2023
+1329,2023-03-03,Toys,West,Mobile App,Premium,1,23.63,23.63,16.28,7.35,Cash,3,31.1,Q1,Mar,Fri,2023
+1330,2023-07-08,Clothing,East,Online,Regular,2,39.74,79.48,45.35,34.12,Debit Card,5,42.93,Q3,Jul,Sat,2023
+1331,2023-11-09,Toys,South,Store,Regular,9,16.07,144.64,95.85,48.79,Debit Card,5,33.73,Q4,Nov,Thu,2023
+1332,2023-08-15,Toys,South,Online,Premium,7,16.28,113.99,76.74,37.25,Debit Card,3,32.68,Q3,Aug,Tue,2023
+1333,2023-06-11,Books,South,Online,Regular,6,18.45,110.7,82.21,28.49,Credit Card,3,25.74,Q2,Jun,Sun,2023
+1334,2023-12-20,Books,North,Mobile App,Regular,10,16.51,165.15,100.24,64.91,Debit Card,5,39.3,Q4,Dec,Wed,2023
+1335,2023-01-28,Books,South,Store,Regular,7,15.14,106.0,64.57,41.43,Credit Card,3,39.08,Q1,Jan,Sat,2023
+1336,2023-01-07,Sports,East,Store,Premium,2,68.28,136.57,89.54,47.03,Cash,5,34.44,Q1,Jan,Sat,2023
+1337,2023-02-07,Sports,North,Mobile App,Premium,3,51.92,155.77,109.44,46.34,Credit Card,4,29.75,Q1,Feb,Tue,2023
+1338,2023-07-23,Clothing,Central,Store,Budget,1,24.29,24.29,17.97,6.32,Digital Wallet,4,26.02,Q3,Jul,Sun,2023
+1339,2023-10-03,Sports,Central,Online,Regular,2,72.11,144.22,97.79,46.42,Credit Card,4,32.19,Q4,Oct,Tue,2023
+1340,2023-03-21,Electronics,Central,Store,Regular,4,303.39,1213.57,903.94,309.63,Digital Wallet,5,25.51,Q1,Mar,Tue,2023
+1341,2023-08-12,Toys,South,Online,Premium,2,29.53,59.05,36.14,22.91,Credit Card,4,38.8,Q3,Aug,Sat,2023
+1344,2023-08-08,Electronics,East,Mobile App,Premium,1,381.43,381.43,235.34,146.09,PayPal,5,38.3,Q3,Aug,Tue,2023
+1345,2023-07-04,Books,North,Store,Budget,8,16.91,135.3,86.74,48.57,Debit Card,4,35.9,Q3,Jul,Tue,2023
+1346,2023-12-12,Clothing,North,Online,Budget,2,33.98,67.96,49.53,18.43,Digital Wallet,3,27.12,Q4,Dec,Tue,2023
+1347,2023-08-30,Electronics,East,Store,Premium,1,407.61,407.61,244.12,163.49,Debit Card,3,40.11,Q3,Aug,Wed,2023
+1348,2023-05-08,Books,West,Mobile App,Regular,7,19.55,136.83,81.4,55.43,PayPal,3,40.51,Q2,May,Mon,2023
+1349,2023-01-27,Books,South,Online,Budget,9,13.09,117.83,80.67,37.16,Credit Card,4,31.54,Q1,Jan,Fri,2023
+1350,2023-06-09,Electronics,East,Online,Budget,5,413.1,2065.49,1455.56,609.93,Cash,3,29.53,Q2,Jun,Fri,2023
+1351,2023-11-15,Home & Garden,South,Store,Regular,10,56.05,560.54,396.24,164.29,Digital Wallet,4,29.31,Q4,Nov,Wed,2023
+1352,2023-05-06,Clothing,South,Online,Regular,9,55.46,499.15,350.45,148.7,Credit Card,3,29.79,Q2,May,Sat,2023
+1353,2023-01-01,Books,West,Mobile App,Budget,1,12.7,12.7,9.4,3.3,PayPal,3,25.98,Q1,Jan,Sun,2023
+1354,2023-01-31,Clothing,South,Mobile App,Regular,4,46.34,185.37,117.52,67.85,Credit Card,3,36.6,Q1,Jan,Tue,2023
+1355,2023-07-10,Clothing,West,Mobile App,Premium,9,62.88,565.9,358.0,207.91,Digital Wallet,3,36.74,Q3,Jul,Mon,2023
+1356,2023-10-18,Books,North,Store,Budget,7,9.5,66.52,37.58,28.94,Debit Card,3,43.51,Q4,Oct,Wed,2023
+1357,2023-07-21,Home & Garden,East,Store,Regular,6,60.88,365.28,268.55,96.72,PayPal,3,26.48,Q3,Jul,Fri,2023
+1358,2023-10-27,Electronics,North,Online,Premium,3,433.07,1299.2,917.22,381.98,Debit Card,4,29.4,Q4,Oct,Fri,2023
+1359,2023-04-17,Sports,West,Store,Regular,2,48.84,97.68,64.2,33.49,PayPal,3,34.29,Q2,Apr,Mon,2023
+1360,2023-12-23,Electronics,Central,Online,Premium,5,197.28,986.42,705.57,280.86,PayPal,3,28.47,Q4,Dec,Sat,2023
+1362,2023-08-25,Sports,North,Online,Premium,9,63.36,570.22,342.11,228.1,Credit Card,3,40.0,Q3,Aug,Fri,2023
+1364,2023-08-16,Electronics,South,Online,Regular,4,449.15,1796.59,1312.41,484.18,Credit Card,3,26.95,Q3,Aug,Wed,2023
+1365,2023-07-22,Sports,West,Online,Regular,10,33.04,330.38,210.33,120.05,Cash,3,36.34,Q3,Jul,Sat,2023
+1366,2023-08-17,Home & Garden,South,Online,Budget,3,57.18,171.53,103.78,67.76,Digital Wallet,5,39.5,Q3,Aug,Thu,2023
+1367,2023-10-09,Clothing,West,Online,Premium,8,51.63,413.02,261.19,151.83,PayPal,4,36.76,Q4,Oct,Mon,2023
+1368,2023-10-06,Clothing,North,Store,Budget,9,41.37,372.29,223.31,148.98,PayPal,4,40.02,Q4,Oct,Fri,2023
+1370,2023-05-24,Home & Garden,North,Store,Budget,1,87.77,87.77,64.0,23.77,PayPal,5,27.08,Q2,May,Wed,2023
+1371,2023-05-04,Clothing,East,Mobile App,Budget,2,66.33,132.66,79.54,53.12,Credit Card,3,40.04,Q2,May,Thu,2023
+1372,2023-03-30,Books,South,Online,Budget,7,20.2,141.38,87.79,53.59,PayPal,5,37.9,Q1,Mar,Thu,2023
+1373,2023-12-25,Toys,East,Mobile App,Budget,10,21.47,214.7,119.29,95.4,Debit Card,5,44.43,Q4,Dec,Mon,2023
+1374,2023-03-31,Clothing,West,Online,Premium,8,60.15,481.21,316.84,164.37,Credit Card,3,34.16,Q1,Mar,Fri,2023
+1375,2023-06-19,Books,Central,Online,Premium,9,10.78,97.04,62.65,34.39,PayPal,5,35.44,Q2,Jun,Mon,2023
+1377,2023-12-06,Home & Garden,West,Mobile App,Premium,6,116.84,701.07,484.37,216.69,PayPal,4,30.91,Q4,Dec,Wed,2023
+1378,2023-08-12,Home & Garden,West,Mobile App,Regular,3,509.20000000000005,1527.5,106.38,46.36,Debit Card,5,3.04,Q3,Aug,Sat,2023
+1379,2023-04-25,Books,Central,Online,Regular,10,17.9,179.03,126.65,52.39,PayPal,5,29.26,Q2,Apr,Tue,2023
+1380,2023-12-26,Toys,Central,Store,Budget,3,19.86,59.59,41.46,18.13,Credit Card,3,30.42,Q4,Dec,Tue,2023
+1381,2023-10-17,Books,North,Store,Premium,10,12.27,122.73,72.93,49.81,PayPal,5,40.59,Q4,Oct,Tue,2023
+1382,2023-02-15,Electronics,East,Store,Premium,6,221.4,1328.39,775.22,553.17,PayPal,3,41.64,Q1,Feb,Wed,2023
+1383,2023-02-25,Clothing,North,Online,Regular,6,53.69,322.16,193.72,128.43,Cash,5,39.87,Q1,Feb,Sat,2023
+1384,2023-07-13,Sports,East,Mobile App,Regular,7,88.15,617.02,400.21,216.81,Credit Card,4,35.14,Q3,Jul,Thu,2023
+1385,2023-02-07,Books,North,Store,Premium,4,17.26,69.06,40.23,28.83,PayPal,4,41.75,Q1,Feb,Tue,2023
+1386,2023-03-24,Electronics,North,Mobile App,Premium,3,172.26,516.78,376.0,140.78,PayPal,5,27.24,Q1,Mar,Fri,2023
+1387,2023-12-01,Books,South,Mobile App,Regular,1,20.9,20.9,13.3,7.6,Debit Card,3,36.36,Q4,Dec,Fri,2023
+1388,2023-10-11,Electronics,Central,Store,Budget,4,249.33,997.31,630.16,367.16,PayPal,4,36.82,Q4,Oct,Wed,2023
+1390,2023-02-19,Electronics,North,Online,Premium,10,238.36,2383.65,1539.99,843.65,PayPal,3,35.39,Q1,Feb,Sun,2023
+1391,2023-08-30,Sports,West,Mobile App,Regular,5,80.63,403.13,285.0,118.13,Credit Card,5,29.3,Q3,Aug,Wed,2023
+1393,2023-03-19,Sports,North,Online,Budget,5,45.8,229.02,151.81,77.21,PayPal,5,33.71,Q1,Mar,Sun,2023
+1394,2023-02-01,Sports,West,Mobile App,Regular,10,88.24,882.42,525.49,356.94,Digital Wallet,5,40.45,Q1,Feb,Wed,2023
+1395,2023-02-10,Sports,West,Mobile App,Premium,4,64.36,257.45,166.12,91.33,Digital Wallet,5,35.47,Q1,Feb,Fri,2023
+1396,2023-08-18,Books,South,Online,Premium,10,19.51,195.07,113.04,82.03,Debit Card,3,42.05,Q3,Aug,Fri,2023
+1397,2023-11-18,Electronics,South,Mobile App,Regular,7,277.01,1939.09,1144.81,794.28,PayPal,5,40.96,Q4,Nov,Sat,2023
+1398,2023-06-16,Electronics,East,Mobile App,Regular,9,176.11,1584.97,997.7,587.28,Credit Card,5,37.05,Q2,Jun,Fri,2023
+1399,2023-03-18,Books,South,Mobile App,Budget,7,16.31,114.2,65.38,48.82,Digital Wallet,3,42.75,Q1,Mar,Sat,2023
+1401,2023-05-22,Sports,West,Online,Budget,8,64.32,514.57,286.87,227.7,Digital Wallet,5,44.25,Q2,May,Mon,2023
+1402,2023-06-19,Toys,South,Online,Budget,7,22.54,157.8,114.87,42.94,Cash,4,27.21,Q2,Jun,Mon,2023
+1403,2023-09-09,Home & Garden,North,Online,Premium,5,41.62,208.09,127.39,80.7,PayPal,5,38.78,Q3,Sep,Sat,2023
+1404,2023-08-02,Sports,Central,Mobile App,Premium,6,76.44,458.65,276.97,181.68,Debit Card,4,39.61,Q3,Aug,Wed,2023
+1406,2023-09-26,Home & Garden,Central,Online,Premium,7,96.77,677.36,390.92,286.43,Debit Card,3,42.29,Q3,Sep,Tue,2023
+1407,2023-07-04,Electronics,South,Store,Regular,8,224.85,1798.78,1007.52,791.26,Cash,5,43.99,Q3,Jul,Tue,2023
+1408,2023-05-04,Sports,East,Store,Budget,2,68.12,136.25,93.5,42.75,Cash,3,31.38,Q2,May,Thu,2023
+1409,2023-05-13,Sports,North,Store,Premium,6,65.21,391.28,242.14,149.14,Cash,3,38.12,Q2,May,Sat,2023
+1410,2023-11-28,Clothing,South,Mobile App,Premium,4,60.92,243.69,175.8,67.89,PayPal,5,27.86,Q4,Nov,Tue,2023
+1411,2023-03-09,Sports,South,Mobile App,Premium,1,60.8,60.8,39.2,21.59,Debit Card,4,35.51,Q1,Mar,Thu,2023
+1412,2023-12-30,Books,East,Store,Regular,5,19.58,97.88,67.79,30.09,PayPal,4,30.74,Q4,Dec,Sat,2023
+1413,2023-11-16,Home & Garden,West,Mobile App,Premium,5,57.46,287.28,196.92,90.37,Credit Card,5,31.46,Q4,Nov,Thu,2023
+1414,2023-11-01,Toys,Central,Store,Regular,6,36.66,219.97,145.69,74.29,Credit Card,4,33.77,Q4,Nov,Wed,2023
+1416,2023-11-04,Clothing,West,Mobile App,Regular,4,45.78,183.11,133.66,49.45,Debit Card,5,27.01,Q4,Nov,Sat,2023
+1417,2023-08-03,Electronics,West,Store,Budget,5,346.62,1733.1,1043.13,689.97,Credit Card,5,39.81,Q3,Aug,Thu,2023
+1419,2023-02-19,Home & Garden,West,Online,Budget,9,107.63,968.7,567.88,400.82,PayPal,5,41.38,Q1,Feb,Sun,2023
+1420,2023-06-21,Books,North,Online,Regular,3,18.94,56.83,42.02,14.81,Debit Card,5,26.06,Q2,Jun,Wed,2023
+1421,2023-10-27,Home & Garden,East,Store,Premium,6,73.64,441.83,275.85,165.98,Cash,3,37.57,Q4,Oct,Fri,2023
+1422,2023-04-10,Toys,Central,Online,Budget,10,270.9,2708.8999999999996,152.85,118.04,Cash,5,4.36,Q2,Apr,Mon,2023
+1423,2023-04-13,Home & Garden,East,Store,Budget,3,73.05,219.15,126.55,92.59,Cash,3,42.25,Q2,Apr,Thu,2023
+1424,2023-09-07,Home & Garden,East,Mobile App,Premium,3,108.99,326.97,230.77,96.2,PayPal,5,29.42,Q3,Sep,Thu,2023
+1426,2023-09-02,Books,West,Online,Premium,7,14.01,98.04,61.83,36.21,Digital Wallet,3,36.93,Q3,Sep,Sat,2023
+1427,2023-09-29,Toys,South,Online,Budget,1,21.83,21.83,15.9,5.93,Credit Card,5,27.16,Q3,Sep,Fri,2023
+1428,2023-02-22,Toys,West,Mobile App,Budget,6,18.72,112.32,68.79,43.53,PayPal,3,38.76,Q1,Feb,Wed,2023
+1429,2023-08-22,Electronics,Central,Mobile App,Budget,5,397.15,1985.77,1468.86,516.91,PayPal,4,26.03,Q3,Aug,Tue,2023
+1430,2023-09-08,Toys,East,Online,Premium,6,37.39,224.32,168.07,56.25,Cash,3,25.08,Q3,Sep,Fri,2023
+1432,2023-11-24,Toys,East,Mobile App,Budget,1,28.76,28.76,17.98,10.79,Credit Card,5,37.52,Q4,Nov,Fri,2023
+1433,2023-03-01,Electronics,West,Store,Regular,1,348.59,348.59,195.09,153.5,Credit Card,5,44.03,Q1,Mar,Wed,2023
+1434,2023-12-18,Home & Garden,North,Store,Regular,3,77.95,233.86,138.23,95.62,Credit Card,5,40.89,Q4,Dec,Mon,2023
+1435,2023-08-03,Books,North,Mobile App,Budget,10,11.55,115.5,79.71,35.79,Digital Wallet,3,30.99,Q3,Aug,Thu,2023
+1436,2023-11-08,Home & Garden,South,Store,Budget,2,49.12,98.24,63.81,34.43,Debit Card,4,35.05,Q4,Nov,Wed,2023
+1437,2023-09-12,Toys,South,Mobile App,Regular,3,22.74,68.23,38.07,30.17,PayPal,3,44.22,Q3,Sep,Tue,2023
+1438,2023-10-21,Electronics,West,Online,Premium,2,153.82,307.65,225.01,82.64,Digital Wallet,3,26.86,Q4,Oct,Sat,2023
+1439,2023-08-22,Toys,East,Store,Regular,5,30.59,152.95,103.83,49.12,Credit Card,3,32.12,Q3,Aug,Tue,2023
+1440,2023-12-13,Clothing,East,Store,Budget,5,61.84,309.18,192.32,116.86,Credit Card,3,37.8,Q4,Dec,Wed,2023
+1441,2023-03-29,Electronics,East,Store,Regular,3,152.9,458.71,313.14,145.56,Digital Wallet,4,31.73,Q1,Mar,Wed,2023
+1442,2023-07-25,Toys,West,Store,Regular,6,14.82,88.94,52.17,36.77,Cash,5,41.34,Q3,Jul,Tue,2023
+1443,2023-12-23,Sports,North,Online,Premium,3,77.99,233.98,133.98,100.0,Cash,5,42.74,Q4,Dec,Sat,2023
+1444,2023-07-14,Sports,East,Mobile App,Premium,8,78.14,625.09,366.46,258.63,Debit Card,4,41.37,Q3,Jul,Fri,2023
+1445,2023-02-02,Sports,East,Mobile App,Regular,7,36.78,257.43,164.28,93.16,Credit Card,5,36.19,Q1,Feb,Thu,2023
+1446,2023-04-25,Toys,East,Mobile App,Budget,10,25.62,256.2,178.0,78.21,Digital Wallet,3,30.53,Q2,Apr,Tue,2023
+1447,2023-12-06,Sports,West,Online,Budget,4,69.7,278.81,180.22,98.59,Digital Wallet,3,35.36,Q4,Dec,Wed,2023
+1448,2023-08-29,Electronics,West,Online,Premium,3,343.02,1029.06,670.03,359.02,Cash,4,34.89,Q3,Aug,Tue,2023
+1449,2023-04-25,Clothing,Central,Mobile App,Regular,5,37.39,186.95,104.71,82.25,Cash,3,44.0,Q2,Apr,Tue,2023
+1451,2023-10-13,Toys,Central,Online,Premium,7,12.94,90.61,57.31,33.3,Digital Wallet,5,36.75,Q4,Oct,Fri,2023
+1452,2023-12-02,Toys,West,Store,Regular,9,20.11,181.03,119.93,61.11,Credit Card,3,33.76,Q4,Dec,Sat,2023
+1453,2023-12-03,Sports,East,Mobile App,Regular,10,49.92,499.18,334.45,164.74,Credit Card,3,33.0,Q4,Dec,Sun,2023
+1454,2023-11-21,Toys,East,Mobile App,Budget,6,18.04,108.26,67.23,41.03,PayPal,5,37.9,Q4,Nov,Tue,2023
+1455,2023-07-29,Electronics,North,Store,Budget,3,163.73,491.2,318.54,172.66,Debit Card,3,35.15,Q3,Jul,Sat,2023
+1457,2023-10-29,Toys,Central,Online,Regular,8,27.22,217.76,139.69,78.07,Credit Card,5,35.85,Q4,Oct,Sun,2023
+1458,2023-09-05,Toys,Central,Online,Budget,7,13.71,96.0,68.91,27.09,Digital Wallet,3,28.22,Q3,Sep,Tue,2023
+1459,2023-11-04,Toys,Central,Store,Budget,2,32.88,65.76,41.26,24.5,Cash,4,37.26,Q4,Nov,Sat,2023
+1460,2023-06-25,Books,East,Store,Premium,4,21.24,84.95,51.37,33.58,Debit Card,4,39.53,Q2,Jun,Sun,2023
+1461,2023-12-26,Books,Central,Store,Budget,9,18.0,162.0,98.79,63.22,Digital Wallet,5,39.02,Q4,Dec,Tue,2023
+1462,2023-12-18,Clothing,East,Mobile App,Premium,10,31.54,315.4,218.53,96.87,Debit Card,5,30.71,Q4,Dec,Mon,2023
+1463,2023-06-30,Books,Central,Store,Budget,6,17.91,107.49,74.39,33.1,Digital Wallet,5,30.79,Q2,Jun,Fri,2023
+1465,2023-03-24,Clothing,East,Mobile App,Regular,1,24.89,24.89,14.68,10.2,Debit Card,3,40.98,Q1,Mar,Fri,2023
+1466,2023-01-17,Toys,East,Store,Premium,4,32.11,128.44,90.0,38.44,Digital Wallet,5,29.93,Q1,Jan,Tue,2023
+1467,2023-10-15,Toys,West,Online,Budget,4,26.55,106.19,74.17,32.02,PayPal,5,30.15,Q4,Oct,Sun,2023
+1472,2023-06-15,Sports,Central,Online,Budget,3,72.58,217.74,121.5,96.25,Digital Wallet,5,44.2,Q2,Jun,Thu,2023
+1473,2023-02-07,Home & Garden,East,Mobile App,Premium,10,79.24,792.44,523.04,269.4,Debit Card,5,34.0,Q1,Feb,Tue,2023
+1474,2023-10-02,Electronics,West,Online,Regular,3,385.88,1157.63,733.0,424.64,Debit Card,3,36.68,Q4,Oct,Mon,2023
+1478,2023-02-12,Sports,North,Online,Budget,4,326.3,1305.2,80.15,50.37,Digital Wallet,3,3.86,Q1,Feb,Sun,2023
+1479,2023-08-06,Toys,North,Online,Budget,4,14.14,56.55,40.88,15.66,Cash,5,27.69,Q3,Aug,Sun,2023
+1481,2023-05-13,Home & Garden,West,Store,Regular,10,84.65,846.47,604.65,241.82,Cash,4,28.57,Q2,May,Sat,2023
+1482,2023-11-25,Home & Garden,Central,Online,Budget,2,41.35,82.7,54.33,28.37,Digital Wallet,3,34.3,Q4,Nov,Sat,2023
+1483,2023-02-24,Toys,East,Mobile App,Regular,6,33.71,202.24,148.77,53.47,Digital Wallet,3,26.44,Q1,Feb,Fri,2023
+1484,2023-12-05,Home & Garden,North,Store,Premium,8,101.22,809.78,507.15,302.63,Digital Wallet,3,37.37,Q4,Dec,Tue,2023
+1485,2023-11-21,Clothing,South,Store,Budget,9,56.1,504.94,307.5,197.43,PayPal,3,39.1,Q4,Nov,Tue,2023
+1486,2023-01-03,Books,Central,Mobile App,Regular,3,20.62,61.86,35.55,26.31,Digital Wallet,5,42.53,Q1,Jan,Tue,2023
+1487,2023-11-27,Electronics,Central,Online,Premium,6,241.41,1448.44,857.98,590.46,Debit Card,3,40.77,Q4,Nov,Mon,2023
+1488,2023-12-10,Books,Central,Online,Budget,4,20.02,80.08,45.88,34.2,Cash,5,42.71,Q4,Dec,Sun,2023
+1489,2023-04-12,Books,Central,Store,Regular,2,86.0,171.9,10.32,6.88,PayPal,3,4.0,Q2,Apr,Wed,2023
+1490,2023-02-05,Toys,South,Store,Regular,2,288.9,577.7,35.07,22.7,Cash,4,3.93,Q1,Feb,Sun,2023
+1491,2023-10-18,Books,East,Store,Regular,10,17.39,173.91,100.95,72.96,Debit Card,3,41.95,Q4,Oct,Wed,2023
+1492,2023-11-25,Home & Garden,West,Store,Regular,4,59.69,238.78,165.34,73.44,Debit Card,5,30.76,Q4,Nov,Sat,2023
+1493,2023-07-03,Toys,East,Store,Budget,8,20.79,166.31,106.87,59.45,Credit Card,3,35.75,Q3,Jul,Mon,2023
+1497,2023-07-23,Home & Garden,East,Mobile App,Premium,9,50.71,456.39,297.61,158.79,Debit Card,5,34.79,Q3,Jul,Sun,2023
+1498,2023-03-23,Toys,South,Mobile App,Budget,9,16.65,149.81,86.6,63.21,Debit Card,5,42.19,Q1,Mar,Thu,2023
+1499,2023-09-07,Toys,South,Online,Regular,6,24.59,147.53,82.33,65.19,PayPal,3,44.19,Q3,Sep,Thu,2023
+1501,2023-05-21,Toys,East,Mobile App,Budget,9,20.6,185.42,125.47,59.94,Digital Wallet,3,32.33,Q2,May,Sun,2023
+1502,2023-02-09,Sports,Central,Store,Regular,6,69.22,415.32,277.24,138.08,Debit Card,5,33.25,Q1,Feb,Thu,2023
+1503,2023-09-04,Sports,Central,Online,Budget,6,51.17,307.04,198.77,108.27,Debit Card,4,35.26,Q3,Sep,Mon,2023
+1504,2023-04-19,Clothing,South,Online,Premium,9,32.85,295.65,200.65,94.99,PayPal,5,32.13,Q2,Apr,Wed,2023
+1505,2023-06-19,Toys,North,Store,Budget,4,32.92,131.7,83.35,48.34,Cash,4,36.7,Q2,Jun,Mon,2023
+1506,2023-01-23,Clothing,South,Mobile App,Budget,7,49.09,343.6,190.52,153.08,Debit Card,3,44.55,Q1,Jan,Mon,2023
+1507,2023-03-27,Toys,East,Online,Budget,10,25.32,253.16,146.67,106.49,Cash,5,42.06,Q1,Mar,Mon,2023
+1508,2023-04-21,Books,West,Mobile App,Regular,5,17.06,85.32,63.09,22.23,Cash,3,26.05,Q2,Apr,Fri,2023
+1509,2023-10-26,Clothing,South,Mobile App,Budget,10,59.87,598.66,346.35,252.31,Digital Wallet,4,42.15,Q4,Oct,Thu,2023
+1512,2023-09-30,Sports,Central,Online,Premium,10,84.1,840.96,469.1,371.87,Cash,5,44.22,Q3,Sep,Sat,2023
+1513,2023-12-14,Clothing,West,Mobile App,Regular,9,63.09,567.8,406.27,161.54,PayPal,3,28.45,Q4,Dec,Thu,2023
+1514,2023-09-04,Toys,West,Store,Budget,4,25.75,102.98,75.97,27.01,Digital Wallet,3,26.23,Q3,Sep,Mon,2023
+1515,2023-02-12,Sports,East,Mobile App,Budget,8,38.03,304.26,213.95,90.31,Cash,4,29.68,Q1,Feb,Sun,2023
+1516,2023-03-02,Clothing,Central,Online,Regular,1,22.75,22.75,15.14,7.61,Debit Card,5,33.45,Q1,Mar,Thu,2023
+1517,2023-11-30,Home & Garden,Central,Store,Regular,2,72.71,145.42,84.48,60.94,Digital Wallet,4,41.91,Q4,Nov,Thu,2023
+1518,2023-07-23,Books,South,Store,Budget,5,12.98,64.92,48.59,16.34,Digital Wallet,4,25.17,Q3,Jul,Sun,2023
+1519,2023-06-07,Clothing,Central,Store,Budget,9,39.16,352.44,227.94,124.5,Cash,5,35.33,Q2,Jun,Wed,2023
+1520,2023-08-17,Clothing,South,Online,Premium,2,609.7,1219.5,85.31,36.64,Digital Wallet,4,3.0,Q3,Aug,Thu,2023
+1521,2023-12-28,Home & Garden,North,Online,Regular,10,104.07,1040.68,717.46,323.22,Credit Card,3,31.06,Q4,Dec,Thu,2023
+1522,2023-02-02,Clothing,East,Online,Regular,10,43.73,437.25,278.56,158.69,Credit Card,5,36.29,Q1,Feb,Thu,2023
+1523,2023-09-24,Electronics,East,Mobile App,Budget,7,367.35,2571.44,1730.05,841.39,Credit Card,3,32.72,Q3,Sep,Sun,2023
+1525,2023-12-12,Books,North,Store,Premium,4,15.24,60.95,41.02,19.93,Credit Card,3,32.7,Q4,Dec,Tue,2023
+1527,2023-10-14,Toys,Central,Store,Regular,2,30.09,60.18,39.71,20.47,PayPal,3,34.01,Q4,Oct,Sat,2023
+1528,2023-10-22,Books,North,Store,Premium,8,21.95,175.57,129.21,46.36,Cash,5,26.41,Q4,Oct,Sun,2023
+1530,2023-05-05,Toys,East,Store,Budget,7,23.57,164.98,109.32,55.66,Cash,5,33.74,Q2,May,Fri,2023
+1531,2023-11-21,Electronics,South,Mobile App,Budget,5,294.59,1472.96,830.03,642.93,Debit Card,4,43.65,Q4,Nov,Tue,2023
+1532,2023-12-25,Sports,East,Online,Regular,9,87.33,785.94,516.47,269.48,Credit Card,4,34.29,Q4,Dec,Mon,2023
+1533,2023-04-02,Toys,West,Store,Regular,6,31.22,187.32,105.87,81.44,Debit Card,5,43.48,Q2,Apr,Sun,2023
+1534,2023-04-13,Home & Garden,South,Mobile App,Premium,4,54.62,218.49,141.98,76.52,PayPal,3,35.02,Q2,Apr,Thu,2023
+1536,2023-10-05,Toys,North,Store,Regular,1,24.82,24.82,17.44,7.37,Digital Wallet,4,29.69,Q4,Oct,Thu,2023
+1537,2023-09-09,Sports,South,Mobile App,Regular,10,83.89,838.87,607.14,231.74,Cash,3,27.63,Q3,Sep,Sat,2023
+1538,2023-09-02,Books,Central,Online,Budget,9,9.42,84.81,60.2,24.61,PayPal,4,29.02,Q3,Sep,Sat,2023
+1539,2023-12-24,Toys,Central,Store,Regular,8,31.9,255.18,190.19,64.99,Credit Card,3,25.47,Q4,Dec,Sun,2023
+1540,2023-07-05,Toys,Central,Store,Premium,10,17.77,177.69,101.31,76.38,Digital Wallet,4,42.98,Q3,Jul,Wed,2023
+1541,2023-04-05,Clothing,West,Store,Premium,10,34.62,346.23,214.19,132.05,Cash,5,38.14,Q2,Apr,Wed,2023
+1542,2023-04-03,Home & Garden,Central,Online,Budget,7,69.21,484.44,293.54,190.91,Debit Card,3,39.41,Q2,Apr,Mon,2023
+1543,2023-07-15,Toys,South,Online,Budget,4,19.25,76.99,50.9,26.1,Debit Card,4,33.9,Q3,Jul,Sat,2023
+1544,2023-11-19,Electronics,Central,Mobile App,Budget,8,202.98,1623.86,936.79,687.06,PayPal,4,42.31,Q4,Nov,Sun,2023
+1545,2023-02-20,Home & Garden,South,Online,Premium,10,60.08,600.78,336.16,264.62,PayPal,4,44.05,Q1,Feb,Mon,2023
+1546,2023-07-04,Toys,Central,Mobile App,Regular,6,14.91,89.45,53.84,35.6,PayPal,3,39.8,Q3,Jul,Tue,2023
+1547,2023-10-22,Sports,Central,Online,Regular,10,37.27,372.74,219.84,152.9,PayPal,4,41.02,Q4,Oct,Sun,2023
+1548,2023-07-15,Toys,Central,Store,Regular,8,25.26,202.09,147.11,54.98,Debit Card,3,27.21,Q3,Jul,Sat,2023
+1549,2023-11-10,Toys,Central,Store,Premium,6,32.69,196.16,124.44,71.72,Credit Card,3,36.56,Q4,Nov,Fri,2023
+1550,2023-12-30,Home & Garden,East,Mobile App,Budget,6,58.26,349.54,237.9,111.64,Cash,4,31.94,Q4,Dec,Sat,2023
+1551,2023-09-24,Sports,West,Store,Premium,6,76.86,461.15,322.61,138.54,Debit Card,3,30.04,Q3,Sep,Sun,2023
+1552,2023-12-25,Clothing,North,Online,Premium,5,55.25,276.25,203.9,72.35,Cash,3,26.19,Q4,Dec,Mon,2023
+1553,2023-01-14,Electronics,West,Mobile App,Premium,8,169.14,1353.1,892.62,460.48,Credit Card,4,34.03,Q1,Jan,Sat,2023
+1554,2023-05-07,Books,East,Store,Budget,7,9.83,68.8,42.1,26.7,Debit Card,3,38.81,Q2,May,Sun,2023
+1556,2023-11-02,Books,West,Mobile App,Budget,9,14.17,127.55,74.67,52.88,Digital Wallet,4,41.46,Q4,Nov,Thu,2023
+1557,2023-06-27,Books,West,Mobile App,Premium,9,17.1,153.87,94.16,59.71,Credit Card,4,38.81,Q2,Jun,Tue,2023
+1558,2023-01-06,Home & Garden,North,Mobile App,Premium,5,69.26,346.31,201.26,145.06,PayPal,4,41.89,Q1,Jan,Fri,2023
+1559,2023-09-02,Sports,East,Online,Regular,8,62.11,496.85,367.36,129.48,PayPal,5,26.06,Q3,Sep,Sat,2023
+1560,2023-07-30,Clothing,Central,Store,Regular,9,58.35,525.19,328.1,197.09,Debit Card,3,37.53,Q3,Jul,Sun,2023
+1561,2023-04-23,Toys,East,Online,Regular,7,30.93,216.5,154.94,61.55,Debit Card,5,28.43,Q2,Apr,Sun,2023
+1563,2023-05-20,Clothing,Central,Store,Premium,8,35.53,284.25,191.46,92.8,PayPal,3,32.65,Q2,May,Sat,2023
+1564,2023-02-22,Clothing,East,Store,Premium,9,247.3,2226.0,123.42,99.19,Cash,5,4.46,Q1,Feb,Wed,2023
+1565,2023-04-22,Electronics,East,Store,Regular,3,219.84,659.53,364.68,294.85,Cash,4,44.71,Q2,Apr,Sat,2023
+1566,2023-03-16,Sports,North,Store,Regular,1,71.82,71.82,44.24,27.57,Credit Card,5,38.39,Q1,Mar,Thu,2023
+1567,2023-01-07,Sports,North,Mobile App,Premium,5,40.9,204.48,145.89,58.59,Cash,4,28.65,Q1,Jan,Sat,2023
+1568,2023-02-18,Clothing,Central,Mobile App,Premium,1,55.69,55.69,32.85,22.84,Cash,4,41.01,Q1,Feb,Sat,2023
+1569,2023-01-22,Toys,Central,Mobile App,Premium,6,36.53,219.18,127.5,91.68,PayPal,4,41.83,Q1,Jan,Sun,2023
+1570,2023-12-08,Toys,South,Online,Premium,6,19.97,119.82,87.17,32.65,Cash,4,27.25,Q4,Dec,Fri,2023
+1571,2023-07-22,Electronics,South,Online,Premium,5,200.21,1001.04,667.63,333.41,Digital Wallet,5,33.31,Q3,Jul,Sat,2023
+1572,2023-02-15,Sports,South,Online,Regular,3,71.3,213.91,133.54,80.37,Credit Card,5,37.57,Q1,Feb,Wed,2023
+1573,2023-11-27,Books,South,Mobile App,Budget,1,12.58,12.58,7.07,5.51,Credit Card,3,43.8,Q4,Nov,Mon,2023
+1574,2023-06-27,Sports,West,Mobile App,Premium,9,43.96,395.64,280.0,115.64,Credit Card,5,29.23,Q2,Jun,Tue,2023
+1575,2023-01-21,Sports,West,Mobile App,Regular,3,51.49,154.47,92.7,61.77,Digital Wallet,4,39.99,Q1,Jan,Sat,2023
+1576,2023-10-06,Books,East,Store,Budget,4,17.96,71.82,47.64,24.18,Cash,4,33.67,Q4,Oct,Fri,2023
+1577,2023-09-29,Books,South,Store,Regular,9,21.22,190.95,111.15,79.81,PayPal,5,41.8,Q3,Sep,Fri,2023
+1578,2023-04-05,Home & Garden,North,Mobile App,Regular,9,76.33,686.94,429.89,257.05,Digital Wallet,3,37.42,Q2,Apr,Wed,2023
+1579,2023-04-08,Home & Garden,Central,Mobile App,Regular,9,97.68,879.12,627.53,251.6,Digital Wallet,3,28.62,Q2,Apr,Sat,2023
+1580,2023-02-26,Books,North,Mobile App,Budget,7,11.75,82.23,55.77,26.46,Credit Card,3,32.18,Q1,Feb,Sun,2023
+1581,2023-09-06,Clothing,South,Online,Premium,1,30.54,30.54,18.03,12.51,Digital Wallet,5,40.96,Q3,Sep,Wed,2023
+1582,2023-10-30,Sports,East,Online,Regular,9,69.48,625.28,421.93,203.34,Debit Card,5,32.52,Q4,Oct,Mon,2023
+1583,2023-02-10,Toys,West,Mobile App,Premium,4,14.27,57.09,38.89,18.2,PayPal,5,31.88,Q1,Feb,Fri,2023
+1584,2023-12-29,Toys,North,Mobile App,Regular,7,35.96,251.69,179.81,71.88,Digital Wallet,3,28.56,Q4,Dec,Fri,2023
+1585,2023-04-21,Toys,Central,Online,Premium,5,14.26,71.3,40.33,30.97,Debit Card,5,43.44,Q2,Apr,Fri,2023
+1586,2023-10-19,Sports,South,Mobile App,Budget,9,41.37,372.31,253.68,118.63,Digital Wallet,4,31.86,Q4,Oct,Thu,2023
+1588,2023-11-04,Sports,West,Store,Regular,3,60.28,180.84,118.78,62.07,Digital Wallet,4,34.32,Q4,Nov,Sat,2023
+1590,2023-08-20,Sports,West,Store,Premium,5,75.94,379.71,236.18,143.53,Credit Card,4,37.8,Q3,Aug,Sun,2023
+1591,2023-06-04,Books,North,Store,Premium,3,7.74,23.23,17.39,5.84,Debit Card,4,25.14,Q2,Jun,Sun,2023
+1592,2023-09-19,Electronics,Central,Mobile App,Budget,5,381.46,1907.28,1399.61,507.68,Debit Card,3,26.62,Q3,Sep,Tue,2023
+1595,2023-06-03,Toys,North,Mobile App,Budget,2,26.91,53.81,36.0,17.81,Cash,3,33.1,Q2,Jun,Sat,2023
+1596,2023-08-11,Electronics,West,Online,Premium,6,426.56,2559.37,1585.75,973.62,Digital Wallet,3,38.04,Q3,Aug,Fri,2023
+1597,2023-09-26,Toys,North,Store,Budget,7,31.94,223.55,125.37,98.18,Digital Wallet,3,43.92,Q3,Sep,Tue,2023
+1598,2023-12-11,Home & Garden,West,Store,Budget,4,80.19,320.77,186.25,134.52,Digital Wallet,5,41.94,Q4,Dec,Mon,2023
+1599,2023-03-17,Electronics,South,Store,Premium,5,216.63,1083.13,766.07,317.06,Cash,5,29.27,Q1,Mar,Fri,2023
+1602,2023-10-22,Clothing,North,Online,Budget,7,25.72,180.07,110.68,69.38,Cash,4,38.53,Q4,Oct,Sun,2023
+1604,2023-04-30,Sports,South,Mobile App,Regular,8,67.39,539.13,301.36,237.77,Debit Card,5,44.1,Q2,Apr,Sun,2023
+1605,2023-11-14,Electronics,South,Store,Premium,1,183.71,183.71,109.97,73.74,PayPal,5,40.14,Q4,Nov,Tue,2023
+1606,2023-04-18,Electronics,Central,Online,Premium,8,241.54,1932.28,1071.55,860.74,Digital Wallet,5,44.55,Q2,Apr,Tue,2023
+1608,2023-12-23,Home & Garden,Central,Store,Premium,5,53.63,268.13,158.23,109.9,Cash,5,40.99,Q4,Dec,Sat,2023
+1609,2023-12-04,Electronics,East,Online,Premium,5,169.98,849.9,580.14,269.76,PayPal,5,31.74,Q4,Dec,Mon,2023
+1610,2023-12-30,Sports,North,Store,Regular,7,43.87,307.09,200.13,106.96,Digital Wallet,5,34.83,Q4,Dec,Sat,2023
+1611,2023-10-15,Electronics,North,Online,Premium,9,205.93,1853.33,1377.69,475.64,Digital Wallet,4,25.66,Q4,Oct,Sun,2023
+1612,2023-12-17,Home & Garden,East,Store,Budget,3,79.19,237.58,131.54,106.04,PayPal,3,44.63,Q4,Dec,Sun,2023
+1613,2023-07-18,Books,North,Mobile App,Regular,1,11.64,11.64,7.86,3.78,Debit Card,3,32.47,Q3,Jul,Tue,2023
+1614,2023-07-15,Home & Garden,Central,Mobile App,Budget,3,111.77,335.32,190.32,145.01,Debit Card,4,43.25,Q3,Jul,Sat,2023
+1615,2023-11-06,Clothing,East,Store,Budget,7,48.28,337.96,251.48,86.48,Debit Card,3,25.59,Q4,Nov,Mon,2023
+1616,2023-04-14,Toys,South,Store,Budget,9,15.96,143.68,98.68,45.0,Digital Wallet,3,31.32,Q2,Apr,Fri,2023
+1617,2023-10-17,Sports,South,Store,Premium,3,89.74,269.22,183.41,85.82,Digital Wallet,5,31.88,Q4,Oct,Tue,2023
+1618,2023-03-16,Toys,North,Store,Regular,6,15.46,92.76,66.59,26.17,Cash,4,28.21,Q1,Mar,Thu,2023
+1620,2023-11-02,Books,South,Online,Budget,10,11.5,115.03,77.35,37.68,Credit Card,4,32.76,Q4,Nov,Thu,2023
+1622,2023-04-26,Sports,North,Store,Premium,3,59.49,178.46,104.0,74.46,PayPal,4,41.72,Q2,Apr,Wed,2023
+1623,2023-02-03,Clothing,South,Store,Budget,4,55.91,223.63,156.89,66.74,Cash,5,29.84,Q1,Feb,Fri,2023
+1626,2023-07-22,Electronics,North,Mobile App,Regular,4,413.33,1653.34,1080.85,572.48,Digital Wallet,5,34.63,Q3,Jul,Sat,2023
+1627,2023-06-05,Electronics,East,Store,Premium,8,206.96,1655.64,1042.4,613.24,Cash,4,37.04,Q2,Jun,Mon,2023
+1628,2023-08-26,Books,West,Online,Budget,9,21.29,191.57,139.99,51.58,Digital Wallet,3,26.92,Q3,Aug,Sat,2023
+1629,2023-07-31,Clothing,East,Store,Premium,9,57.54,517.89,298.85,219.03,Debit Card,4,42.29,Q3,Jul,Mon,2023
+1630,2023-02-16,Books,East,Store,Budget,4,20.95,83.8,60.88,22.92,Debit Card,5,27.35,Q1,Feb,Thu,2023
+1631,2023-11-21,Toys,East,Online,Budget,2,15.59,31.18,21.55,9.63,Cash,5,30.89,Q4,Nov,Tue,2023
+1632,2023-07-14,Books,North,Online,Regular,3,16.68,50.04,31.31,18.73,Digital Wallet,5,37.43,Q3,Jul,Fri,2023
+1634,2023-03-09,Sports,South,Online,Budget,3,47.33,141.98,81.43,60.55,PayPal,3,42.65,Q1,Mar,Thu,2023
+1635,2023-01-03,Sports,Central,Store,Premium,8,59.86,478.86,315.43,163.44,Debit Card,5,34.13,Q1,Jan,Tue,2023
+1636,2023-11-04,Toys,Central,Online,Premium,7,24.39,170.75,109.0,61.75,Digital Wallet,4,36.16,Q4,Nov,Sat,2023
+1637,2023-03-17,Books,North,Mobile App,Regular,4,16.93,67.72,37.91,29.81,Credit Card,3,44.02,Q1,Mar,Fri,2023
+1639,2023-10-15,Toys,South,Store,Budget,10,19.61,196.1,130.3,65.8,Digital Wallet,4,33.55,Q4,Oct,Sun,2023
+1640,2023-07-14,Electronics,North,Store,Budget,5,177.94,889.69,546.77,342.92,Credit Card,4,38.54,Q3,Jul,Fri,2023
+1641,2023-07-31,Sports,Central,Online,Budget,5,38.07,190.36,117.23,73.13,Debit Card,5,38.42,Q3,Jul,Mon,2023
+1642,2023-09-05,Electronics,Central,Mobile App,Regular,9,182.79,1645.12,1229.62,415.49,Cash,5,25.26,Q3,Sep,Tue,2023
+1643,2023-07-01,Home & Garden,South,Mobile App,Budget,10,60.77,607.73,455.19,152.54,Cash,5,25.1,Q3,Jul,Sat,2023
+1645,2023-04-17,Electronics,Central,Store,Regular,2,157.2,314.39,219.29,95.11,Credit Card,4,30.25,Q2,Apr,Mon,2023
+1646,2023-04-14,Home & Garden,East,Store,Premium,4,84.83,339.33,187.4,151.93,PayPal,4,44.77,Q2,Apr,Fri,2023
+1647,2023-06-20,Books,East,Store,Budget,1,15.75,15.75,9.02,6.73,Digital Wallet,5,42.73,Q2,Jun,Tue,2023
+1648,2023-06-23,Electronics,West,Store,Premium,4,399.61,1598.45,984.81,613.64,Debit Card,4,38.39,Q2,Jun,Fri,2023
+1649,2023-08-25,Clothing,West,Mobile App,Premium,9,50.72,456.52,332.89,123.63,Digital Wallet,4,27.08,Q3,Aug,Fri,2023
+1650,2023-01-10,Books,South,Mobile App,Budget,6,18.37,110.25,72.88,37.37,PayPal,4,33.9,Q1,Jan,Tue,2023
+1651,2023-06-23,Electronics,West,Mobile App,Budget,5,440.88,2204.42,1583.1,621.32,Debit Card,5,28.19,Q2,Jun,Fri,2023
+1652,2023-06-07,Books,East,Mobile App,Premium,10,13.34,133.43,76.51,56.93,PayPal,4,42.67,Q2,Jun,Wed,2023
+1653,2023-06-04,Electronics,South,Mobile App,Regular,4,299.12,1196.47,746.97,449.49,Debit Card,3,37.57,Q2,Jun,Sun,2023
+1654,2023-08-16,Home & Garden,Central,Online,Regular,4,102.8,411.18,301.26,109.92,Digital Wallet,3,26.73,Q3,Aug,Wed,2023
+1655,2023-09-26,Clothing,East,Store,Premium,8,37.81,302.44,210.65,91.79,Credit Card,5,30.35,Q3,Sep,Tue,2023
+1656,2023-08-24,Toys,West,Mobile App,Budget,4,37.32,149.27,103.73,45.54,Credit Card,3,30.51,Q3,Aug,Thu,2023
+1657,2023-06-20,Home & Garden,West,Online,Premium,10,114.59,1145.87,830.04,315.83,Digital Wallet,5,27.56,Q2,Jun,Tue,2023
+1658,2023-11-24,Toys,South,Store,Premium,10,20.31,203.12,142.53,60.59,Debit Card,4,29.83,Q4,Nov,Fri,2023
+1660,2023-06-29,Books,Central,Store,Regular,2,15.89,31.79,18.8,12.99,Debit Card,5,40.86,Q2,Jun,Thu,2023
+1662,2023-01-28,Electronics,North,Store,Regular,1,291.22,291.22,166.34,124.88,Debit Card,5,42.88,Q1,Jan,Sat,2023
+1663,2023-06-09,Books,East,Online,Budget,8,20.87,166.95,112.4,54.55,Digital Wallet,3,32.67,Q2,Jun,Fri,2023
+1665,2023-04-25,Toys,South,Mobile App,Regular,8,30.26,242.04,155.9,86.14,PayPal,4,35.59,Q2,Apr,Tue,2023
+1666,2023-06-16,Clothing,West,Store,Premium,6,53.98,323.9,229.24,94.66,Credit Card,4,29.23,Q2,Jun,Fri,2023
+1668,2023-11-29,Electronics,North,Store,Budget,2,271.71,543.41,334.29,209.12,Cash,4,38.48,Q4,Nov,Wed,2023
+1669,2023-03-23,Books,West,Store,Premium,10,13.7,137.02,82.04,54.98,PayPal,3,40.13,Q1,Mar,Thu,2023
+1670,2023-06-25,Toys,Central,Mobile App,Premium,7,27.27,190.92,126.66,64.26,Debit Card,5,33.66,Q2,Jun,Sun,2023
+1672,2023-07-27,Electronics,North,Mobile App,Premium,3,396.61,1189.82,727.7,462.12,Digital Wallet,4,38.84,Q3,Jul,Thu,2023
+1673,2023-03-13,Home & Garden,Central,Mobile App,Premium,1,79.54,79.54,45.19,34.35,Debit Card,5,43.19,Q1,Mar,Mon,2023
+1674,2023-10-23,Clothing,West,Online,Premium,5,42.88,214.42,134.65,79.76,PayPal,4,37.2,Q4,Oct,Mon,2023
+1675,2023-08-11,Books,East,Online,Budget,5,19.42,97.08,71.22,25.85,Credit Card,5,26.63,Q3,Aug,Fri,2023
+1676,2023-02-01,Books,East,Mobile App,Premium,3,13.56,40.69,29.32,11.37,Credit Card,5,27.94,Q1,Feb,Wed,2023
+1677,2023-05-25,Books,North,Online,Regular,6,19.81,118.87,67.99,50.88,Digital Wallet,4,42.8,Q2,May,Thu,2023
+1678,2023-08-11,Toys,Central,Online,Budget,7,20.45,143.17,90.37,52.8,Debit Card,4,36.88,Q3,Aug,Fri,2023
+1679,2023-07-04,Clothing,West,Online,Regular,7,30.97,216.79,155.8,60.99,Debit Card,3,28.13,Q3,Jul,Tue,2023
+1680,2023-09-07,Electronics,West,Online,Premium,1,171.52,171.52,99.28,72.25,Debit Card,5,42.12,Q3,Sep,Thu,2023
+1681,2023-11-16,Sports,South,Store,Budget,10,81.61,816.09,600.69,215.4,Cash,5,26.39,Q4,Nov,Thu,2023
+1683,2023-01-18,Books,North,Mobile App,Regular,9,11.54,103.85,69.09,34.76,PayPal,3,33.47,Q1,Jan,Wed,2023
+1684,2023-09-27,Books,East,Store,Budget,2,14.72,29.45,17.03,12.41,Credit Card,5,42.14,Q3,Sep,Wed,2023
+1685,2023-12-06,Books,North,Mobile App,Budget,8,8.83,70.61,47.74,22.87,Digital Wallet,5,32.39,Q4,Dec,Wed,2023
+1686,2023-01-06,Home & Garden,West,Store,Budget,6,89.04,534.26,351.01,183.25,Cash,5,34.3,Q1,Jan,Fri,2023
+1687,2023-05-31,Toys,East,Online,Premium,6,20.79,124.73,92.56,32.17,Digital Wallet,5,25.79,Q2,May,Wed,2023
+1688,2023-11-19,Home & Garden,West,Mobile App,Premium,10,98.16,981.58,591.0,390.58,Digital Wallet,3,39.79,Q4,Nov,Sun,2023
+1689,2023-09-06,Toys,North,Online,Budget,10,37.26,372.59,206.96,165.63,Credit Card,4,44.45,Q3,Sep,Wed,2023
+1690,2023-05-12,Home & Garden,North,Mobile App,Premium,5,50.6,253.02,153.09,99.93,Digital Wallet,3,39.49,Q2,May,Fri,2023
+1691,2023-03-31,Books,East,Mobile App,Premium,8,18.58,148.68,92.77,55.91,Cash,3,37.6,Q1,Mar,Fri,2023
+1692,2023-03-16,Books,Central,Online,Regular,6,20.43,122.58,91.55,31.04,Cash,4,25.32,Q1,Mar,Thu,2023
+1693,2023-06-26,Clothing,North,Mobile App,Regular,3,52.23,156.69,92.79,63.9,Credit Card,3,40.78,Q2,Jun,Mon,2023
+1694,2023-09-30,Clothing,South,Store,Budget,8,43.38,347.05,211.79,135.25,Cash,4,38.97,Q3,Sep,Sat,2023
+1695,2023-08-18,Home & Garden,West,Mobile App,Regular,7,51.61,361.28,199.56,161.72,Digital Wallet,5,44.76,Q3,Aug,Fri,2023
+1697,2023-07-20,Home & Garden,West,Mobile App,Budget,5,104.19,520.93,354.68,166.24,Debit Card,5,31.91,Q3,Jul,Thu,2023
+1699,2023-09-26,Electronics,North,Mobile App,Regular,1,399.51,399.51,252.59,146.92,PayPal,3,36.78,Q3,Sep,Tue,2023
+1700,2023-11-14,Toys,North,Online,Budget,4,19.58,78.33,43.61,34.72,Debit Card,5,44.33,Q4,Nov,Tue,2023
+1701,2023-11-06,Toys,South,Store,Budget,2,15.54,31.09,17.64,13.45,Digital Wallet,3,43.26,Q4,Nov,Mon,2023
+1703,2023-02-07,Toys,East,Online,Regular,6,35.08,210.51,126.61,83.89,Cash,4,39.85,Q1,Feb,Tue,2023
+1705,2023-08-09,Toys,South,Mobile App,Budget,3,24.8,74.4,48.97,25.44,Credit Card,4,34.19,Q3,Aug,Wed,2023
+1706,2023-10-20,Toys,East,Store,Premium,1,18.97,18.97,10.71,8.26,Cash,3,43.54,Q4,Oct,Fri,2023
+1707,2023-05-17,Toys,South,Mobile App,Regular,1,28.51,28.51,19.47,9.04,Cash,5,31.71,Q2,May,Wed,2023
+1709,2023-10-02,Toys,East,Store,Budget,8,32.95,263.6,151.37,112.23,PayPal,4,42.58,Q4,Oct,Mon,2023
+1710,2023-06-24,Electronics,North,Store,Regular,2,339.68,679.36,423.29,256.07,Debit Card,3,37.69,Q2,Jun,Sat,2023
+1711,2023-06-03,Books,West,Online,Budget,7,8.09,56.63,38.63,18.0,PayPal,4,31.79,Q2,Jun,Sat,2023
+1713,2023-09-13,Sports,Central,Store,Premium,9,53.33,479.93,325.72,154.21,Credit Card,4,32.13,Q3,Sep,Wed,2023
+1714,2023-04-19,Electronics,Central,Store,Budget,1,251.32,251.32,158.61,92.71,Digital Wallet,3,36.89,Q2,Apr,Wed,2023
+1716,2023-11-20,Electronics,North,Store,Premium,3,222.8,668.41,369.55,298.87,Cash,5,44.71,Q4,Nov,Mon,2023
+1717,2023-02-24,Clothing,North,Store,Budget,2,60.09,120.18,85.76,34.42,Digital Wallet,3,28.64,Q1,Feb,Fri,2023
+1720,2023-10-11,Clothing,South,Store,Premium,3,56.59,169.77,117.02,52.75,Digital Wallet,3,31.07,Q4,Oct,Wed,2023
+1722,2023-08-02,Clothing,West,Mobile App,Premium,10,64.18,641.76,466.81,174.96,Debit Card,3,27.26,Q3,Aug,Wed,2023
+1723,2023-03-31,Toys,Central,Mobile App,Premium,8,19.27,154.19,97.51,56.68,Digital Wallet,3,36.76,Q1,Mar,Fri,2023
+1724,2023-06-04,Toys,East,Store,Premium,2,25.0,49.99,33.77,16.23,Digital Wallet,3,32.47,Q2,Jun,Sun,2023
+1725,2023-11-13,Clothing,East,Mobile App,Budget,9,27.79,250.09,186.41,63.68,Debit Card,4,25.46,Q4,Nov,Mon,2023
+1726,2023-02-27,Toys,South,Mobile App,Regular,5,28.98,144.92,81.24,63.67,Cash,3,43.93,Q1,Feb,Mon,2023
+1727,2023-07-06,Clothing,East,Online,Regular,1,52.66,52.66,29.53,23.13,PayPal,4,43.92,Q3,Jul,Thu,2023
+1728,2023-01-27,Books,Central,Online,Premium,8,19.58,156.62,87.5,69.12,Credit Card,4,44.13,Q1,Jan,Fri,2023
+1729,2023-10-31,Books,Central,Store,Regular,4,9.24,36.96,25.66,11.3,Debit Card,5,30.57,Q4,Oct,Tue,2023
+1730,2023-06-16,Toys,South,Online,Premium,4,34.96,139.84,98.7,41.14,Cash,3,29.42,Q2,Jun,Fri,2023
+1731,2023-09-06,Sports,North,Store,Premium,2,83.48,166.96,107.56,59.41,Debit Card,5,35.58,Q3,Sep,Wed,2023
+1732,2023-04-10,Sports,East,Store,Premium,6,40.68,244.1,140.92,103.19,PayPal,3,42.27,Q2,Apr,Mon,2023
+1733,2023-02-26,Electronics,West,Store,Regular,1,357.66,357.66,216.79,140.88,Debit Card,4,39.39,Q1,Feb,Sun,2023
+1734,2023-11-23,Clothing,Central,Online,Budget,10,62.39,623.88,362.7,261.18,Digital Wallet,3,41.86,Q4,Nov,Thu,2023
+1735,2023-04-21,Electronics,Central,Store,Regular,9,273.51,2461.58,1594.72,866.86,PayPal,3,35.22,Q2,Apr,Fri,2023
+1736,2023-08-11,Toys,Central,Online,Budget,4,23.2,92.81,55.65,37.16,Debit Card,5,40.04,Q3,Aug,Fri,2023
+1737,2023-08-29,Electronics,Central,Online,Regular,1,275.33,275.33,153.64,121.69,Digital Wallet,4,44.2,Q3,Aug,Tue,2023
+1738,2023-05-04,Sports,North,Mobile App,Premium,2,78.58,157.17,100.66,56.5,Cash,3,35.95,Q2,May,Thu,2023
+1739,2023-02-16,Clothing,North,Store,Budget,4,38.63,154.51,105.0,49.52,PayPal,3,32.05,Q1,Feb,Thu,2023
+1740,2023-01-13,Toys,West,Store,Premium,10,23.98,239.82,167.74,72.08,Cash,3,30.06,Q1,Jan,Fri,2023
+1741,2023-02-06,Home & Garden,West,Mobile App,Regular,1,90.14,90.14,65.09,25.05,Digital Wallet,3,27.79,Q1,Feb,Mon,2023
+1742,2023-11-10,Home & Garden,Central,Mobile App,Premium,5,74.07,370.36,255.4,114.96,Credit Card,5,31.04,Q4,Nov,Fri,2023
+1743,2023-12-12,Home & Garden,East,Online,Premium,1,98.86,98.86,64.55,34.31,Cash,4,34.71,Q4,Dec,Tue,2023
+1745,2023-02-28,Clothing,West,Mobile App,Budget,6,28.73,172.37,103.03,69.34,Debit Card,5,40.23,Q1,Feb,Tue,2023
+1747,2023-08-29,Sports,Central,Mobile App,Budget,9,59.17,532.56,381.27,151.29,PayPal,4,28.41,Q3,Aug,Tue,2023
+1748,2023-08-23,Books,North,Online,Regular,2,13.02,26.04,15.31,10.74,Debit Card,4,41.24,Q3,Aug,Wed,2023
+1749,2023-03-17,Electronics,West,Online,Premium,5,182.81,914.05,523.21,390.84,Digital Wallet,5,42.76,Q1,Mar,Fri,2023
+1750,2023-08-31,Electronics,East,Store,Regular,9,237.95,2141.56,1576.92,564.63,Credit Card,4,26.37,Q3,Aug,Thu,2023
+1751,2023-09-24,Clothing,East,Store,Budget,4,25.33,101.33,72.65,28.68,PayPal,5,28.3,Q3,Sep,Sun,2023
+1752,2023-12-23,Toys,Central,Mobile App,Regular,8,32.17,257.36,172.09,85.27,Cash,4,33.13,Q4,Dec,Sat,2023
+1753,2023-05-14,Books,South,Store,Regular,5,9.48,47.4,27.7,19.7,PayPal,3,41.56,Q2,May,Sun,2023
+1754,2023-11-13,Clothing,South,Mobile App,Budget,8,38.39,307.12,227.65,79.47,PayPal,3,25.88,Q4,Nov,Mon,2023
+1755,2023-03-01,Clothing,North,Store,Budget,3,60.27,180.81,105.28,75.53,Debit Card,4,41.77,Q1,Mar,Wed,2023
+1756,2023-01-18,Home & Garden,East,Store,Premium,4,69.57,278.3,184.37,93.93,PayPal,4,33.75,Q1,Jan,Wed,2023
+1757,2023-01-13,Books,West,Store,Premium,9,22.13,199.19,121.57,77.62,Cash,4,38.97,Q1,Jan,Fri,2023
+1758,2023-06-19,Clothing,East,Store,Regular,9,22.69,204.24,152.18,52.06,Digital Wallet,5,25.49,Q2,Jun,Mon,2023
+1759,2023-02-27,Clothing,West,Online,Premium,8,58.48,467.85,289.01,178.84,Digital Wallet,3,38.23,Q1,Feb,Mon,2023
+1760,2023-08-17,Home & Garden,East,Online,Regular,10,41.98,419.84,301.52,118.32,Credit Card,5,28.18,Q3,Aug,Thu,2023
+1761,2023-05-23,Toys,South,Online,Premium,9,17.38,156.41,92.97,63.43,Digital Wallet,4,40.55,Q2,May,Tue,2023
+1762,2023-07-21,Toys,South,Store,Regular,2,29.29,58.58,43.65,14.93,Digital Wallet,5,25.49,Q3,Jul,Fri,2023
+1763,2023-08-07,Books,East,Store,Regular,6,21.65,129.91,81.78,48.13,Credit Card,4,37.05,Q3,Aug,Mon,2023
+1766,2023-02-03,Clothing,Central,Store,Premium,9,36.15,325.31,243.11,82.2,Credit Card,4,25.27,Q1,Feb,Fri,2023
+1768,2023-06-04,Home & Garden,Central,Store,Regular,1,84.31,84.31,60.24,24.07,Digital Wallet,5,28.55,Q2,Jun,Sun,2023
+1769,2023-06-03,Sports,West,Online,Budget,1,43.47,43.47,25.25,18.22,PayPal,4,41.91,Q2,Jun,Sat,2023
+1770,2023-05-22,Clothing,West,Online,Budget,4,44.63,178.54,99.21,79.33,PayPal,5,44.43,Q2,May,Mon,2023
+1771,2023-09-01,Sports,North,Store,Budget,5,63.93,319.67,215.97,103.7,Digital Wallet,3,32.44,Q3,Sep,Fri,2023
+1772,2023-08-25,Home & Garden,South,Store,Premium,1,53.03,53.03,30.72,22.31,Credit Card,4,42.07,Q3,Aug,Fri,2023
+1773,2023-05-30,Home & Garden,Central,Mobile App,Premium,6,73.56,441.37,247.05,194.31,Digital Wallet,3,44.02,Q2,May,Tue,2023
+1774,2023-03-27,Toys,Central,Store,Regular,2,17.08,34.16,22.88,11.28,PayPal,4,33.02,Q1,Mar,Mon,2023
+1777,2023-09-27,Clothing,Central,Mobile App,Budget,9,58.28,524.52,352.84,171.68,Credit Card,4,32.73,Q3,Sep,Wed,2023
+1778,2023-01-09,Sports,West,Store,Regular,2,84.96,169.92,121.29,48.64,PayPal,3,28.63,Q1,Jan,Mon,2023
+1779,2023-06-25,Sports,South,Mobile App,Regular,10,83.38,833.84,545.85,287.99,Credit Card,5,34.54,Q2,Jun,Sun,2023
+1780,2023-06-07,Electronics,South,Online,Premium,3,216.71,650.12,447.03,203.09,Credit Card,4,31.24,Q2,Jun,Wed,2023
+1781,2023-09-05,Toys,West,Online,Premium,2,31.58,63.15,35.71,27.44,Credit Card,3,43.45,Q3,Sep,Tue,2023
+1782,2023-05-10,Toys,North,Online,Regular,1,25.34,25.34,16.31,9.02,Credit Card,3,35.6,Q2,May,Wed,2023
+1783,2023-04-13,Electronics,South,Mobile App,Regular,4,426.03,1704.12,1137.53,566.58,Credit Card,3,33.25,Q2,Apr,Thu,2023
+1784,2023-06-28,Clothing,East,Online,Budget,5,60.56,302.82,224.01,78.81,Digital Wallet,3,26.03,Q2,Jun,Wed,2023
+1786,2023-02-20,Clothing,South,Mobile App,Budget,9,63.07,567.67,312.71,254.96,Cash,4,44.91,Q1,Feb,Mon,2023
+1787,2023-02-24,Toys,South,Store,Regular,8,27.23,217.88,149.18,68.7,Cash,3,31.53,Q1,Feb,Fri,2023
+1788,2023-06-10,Books,North,Store,Premium,2,10.91,21.83,15.33,6.5,Digital Wallet,3,29.78,Q2,Jun,Sat,2023
+1789,2023-01-21,Sports,North,Store,Regular,5,75.74,378.68,250.47,128.21,Credit Card,4,33.86,Q1,Jan,Sat,2023
+1790,2023-08-16,Home & Garden,South,Mobile App,Regular,5,76.56,382.78,263.13,119.65,PayPal,4,31.26,Q3,Aug,Wed,2023
+1792,2023-02-13,Electronics,North,Online,Regular,9,268.91,2420.2,1649.87,770.33,Cash,5,31.83,Q1,Feb,Mon,2023
+1793,2023-04-12,Books,East,Online,Budget,3,22.16,66.49,37.43,29.06,Cash,3,43.71,Q2,Apr,Wed,2023
+1794,2023-10-25,Clothing,Central,Store,Budget,8,60.21,481.72,291.78,189.94,Cash,4,39.43,Q4,Oct,Wed,2023
+1795,2023-09-19,Sports,East,Online,Regular,7,70.0,490.0,366.28,123.72,Credit Card,3,25.25,Q3,Sep,Tue,2023
+1796,2023-03-10,Home & Garden,North,Online,Budget,4,79.15,316.59,213.91,102.68,Credit Card,3,32.43,Q1,Mar,Fri,2023
+1797,2023-12-14,Sports,East,Online,Regular,3,70.69,212.06,132.86,79.2,Digital Wallet,5,37.35,Q4,Dec,Thu,2023
+1799,2023-10-04,Books,Central,Online,Premium,6,11.42,68.55,48.8,19.75,Cash,3,28.81,Q4,Oct,Wed,2023

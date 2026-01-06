@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Retail Analytics Dashboard - Preview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; background:#f7f7fb; margin:0; padding:20px; }
+      .container { max-width:1100px; margin:0 auto; }
+      .card { background:white; border-radius:12px; padding:16px; box-shadow:0 6px 18px rgba(20,20,50,0.06); margin-bottom:16px }
+      .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px }
+      h1 { margin:0 0 8px 0 }
+      .kpi { font-size:20px; font-weight:700 }
+      select { padding:8px; border-radius:6px }
+    </style>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="root"></div>
+    </div>
+
+    <script type="text/babel">
+      const { useState, useMemo } = React;
+      const {
+        BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
+      } = Recharts;
+
+      function generateRawData() {
+        const categories = ['Electronics', 'Clothing', 'Home & Garden', 'Sports', 'Books', 'Toys'];
+        const regions = ['North', 'South', 'East', 'West', 'Central'];
+        const channels = ['Online', 'Store', 'Mobile App'];
+        const data = [];
+        let transactionId = 1000;
+        for (let i = 0; i < 400; i++) {
+          const d = new Date(2023, Math.floor(Math.random()*12), Math.floor(Math.random()*28)+1);
+          const category = categories[Math.floor(Math.random()*categories.length)];
+          const region = regions[Math.floor(Math.random()*regions.length)];
+          const channel = channels[Math.floor(Math.random()*channels.length)];
+          const quantity = Math.floor(Math.random()*10)+1;
+          const base = category === 'Electronics' ? 300 : category === 'Clothing' ? 45 : category === 'Home & Garden' ? 80 : category === 'Sports' ? 60 : category === 'Books' ? 15 : 25;
+          const unit = base * (0.5 + Math.random());
+          const revenue = unit * quantity;
+          const cost = revenue * (0.55 + Math.random()*0.2);
+          const profit = revenue - cost;
+          data.push({ transaction_id: transactionId++, date: d.toISOString().split('T')[0], category, region, channel, quantity, unit_price: unit, revenue, cost, profit, customer_segment: ['Premium','Regular','Budget'][Math.floor(Math.random()*3)] });
+        }
+        return data;
+      }
+
+      function App(){
+        const [selectedRegion, setSelectedRegion] = useState('All');
+        const [selectedCategory, setSelectedCategory] = useState('All');
+        const raw = useMemo(()=>generateRawData(),[]);
+        const cleaned = useMemo(()=>raw.filter(r=>r.revenue>0),[raw]);
+        const filtered = useMemo(()=> cleaned.filter(r => (selectedRegion==='All'||r.region===selectedRegion) && (selectedCategory==='All'||r.category===selectedCategory)), [cleaned, selectedRegion, selectedCategory]);
+
+        const kpis = useMemo(()=>{
+          const totalRevenue = filtered.reduce((s,r)=>s+r.revenue,0);
+          const totalProfit = filtered.reduce((s,r)=>s+r.profit,0);
+          const transactions = filtered.length || 1;
+          return { totalRevenue: totalRevenue.toFixed(0), totalProfit: totalProfit.toFixed(0), transactions };
+        },[filtered]);
+
+        const categoryData = useMemo(()=>{
+          const g = {};
+          filtered.forEach(r=>{ g[r.category] = g[r.category]||{category:r.category,revenue:0}; g[r.category].revenue += r.revenue });
+          return Object.values(g);
+        },[filtered]);
+
+        const monthly = useMemo(()=>{
+          const months = {Jan:0,Feb:0,Mar:0,Apr:0,May:0,Jun:0,Jul:0,Aug:0,Sep:0,Oct:0,Nov:0,Dec:0};
+          filtered.forEach(r=>{ const m = new Date(r.date).toLocaleString('default',{month:'short'}); months[m]+=r.revenue });
+          return Object.keys(months).map(k=>({month:k,revenue:months[k]}));
+        },[filtered]);
+
+        const COLORS = ['#8b5cf6','#ec4899','#f59e0b','#10b981','#3b82f6','#ef4444'];
+
+        return (
+          <div>
+            <div className="card">
+              <h1>Retail Analytics Dashboard (Preview)</h1>
+              <p style={{marginTop:6}}>Quick preview using in-browser generated data.</p>
+            </div>
+
+            <div className="card grid">
+              <div>
+                <div style={{color:'#6b7280'}}>Total Revenue</div>
+                <div className="kpi">${(kpis.totalRevenue/1000).toFixed(0)}K</div>
+              </div>
+              <div>
+                <div style={{color:'#6b7280'}}>Net Profit</div>
+                <div className="kpi">${(kpis.totalProfit/1000).toFixed(0)}K</div>
+              </div>
+              <div>
+                <div style={{color:'#6b7280'}}>Transactions</div>
+                <div className="kpi">{kpis.transactions.toLocaleString()}</div>
+              </div>
+              <div>
+                <div style={{color:'#6b7280'}}>Filters</div>
+                <div style={{display:'flex', gap:8, marginTop:8}}>
+                  <select value={selectedRegion} onChange={e=>setSelectedRegion(e.target.value)}>
+                    <option>All</option><option>North</option><option>South</option><option>East</option><option>West</option><option>Central</option>
+                  </select>
+                  <select value={selectedCategory} onChange={e=>setSelectedCategory(e.target.value)}>
+                    <option>All</option><option>Electronics</option><option>Clothing</option><option>Home & Garden</option><option>Sports</option><option>Books</option><option>Toys</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:12}}>
+              <div className="card">
+                <h3>Revenue by Category</h3>
+                <div style={{width:'100%', height:260}}>
+                  <ResponsiveContainer width="100%" height={260}>
+                    <BarChart data={categoryData} margin={{top:10,right:10,left:0,bottom:5}}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="category" />
+                      <YAxis />
+                      <Tooltip formatter={(v)=>`$${v.toFixed(0)}`} />
+                      <Bar dataKey="revenue" fill="#8b5cf6">
+                        {categoryData.map((c,i)=>(<Cell key={i} fill={COLORS[i%COLORS.length]}/>))}
+                      </Bar>
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
+
+              <div className="card">
+                <h3>Monthly Revenue Trend</h3>
+                <div style={{width:'100%', height:260}}>
+                  <ResponsiveContainer width="100%" height={260}>
+                    <LineChart data={monthly} margin={{top:10,right:10,left:0,bottom:5}}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="month" />
+                      <YAxis />
+                      <Tooltip formatter={(v)=>`$${v.toFixed(0)}`} />
+                      <Line type="monotone" dataKey="revenue" stroke="#10b981" strokeWidth={2} />
+                    </LineChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <h3>Data Sample (first 5 rows)</h3>
+              <pre style={{whiteSpace:'pre-wrap',fontSize:12}}> {JSON.stringify(filtered.slice(0,5),null,2)} </pre>
+            </div>
+
+          </div>
+        )
+      }
+
+      ReactDOM.render(<App/>, document.getElementById('root'));
+    </script>
+  </body>
+</html>
